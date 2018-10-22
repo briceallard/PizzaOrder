@@ -63,6 +63,26 @@ namespace PizzaShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cheese_pizza {
+            get {
+                object obj = ResourceManager.GetObject("cheese_pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cheese_pizza_small {
+            get {
+                object obj = ResourceManager.GetObject("cheese_pizza_small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_white_thick_16x16 {
             get {
                 object obj = ResourceManager.GetObject("close_white_thick_16x16", resourceCulture);
@@ -117,6 +137,16 @@ namespace PizzaShop.Properties {
             get {
                 object obj = ResourceManager.GetObject("info_white_thin_24x24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Italiano {
+            get {
+                object obj = ResourceManager.GetObject("Italiano", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
+using System.Runtime.InteropServices;
 
 namespace PizzaShop
 {
@@ -15,14 +17,52 @@ namespace PizzaShop
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
+        [DllImport("gdi32.dll")]
+        private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont, uint cbfont, IntPtr pdv, [In] ref uint pcFonts);
         [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
+        FontFamily ff;
+        Font font;
+
         public ApplicationForm()
         {
             InitializeComponent();
+        }
+
+        private void ApplicationForm_Load(object sender, EventArgs e)
+        {
+            loadFont();
+        }
+
+        private void loadFont()
+        {
+            byte[] fontArray = Properties.Resources.Italiano;
+            int dataLength = Properties.Resources.Italiano.Length;
+
+            IntPtr ptrData = Marshal.AllocCoTaskMem(dataLength);
+
+            Marshal.Copy(fontArray, 0, ptrData, dataLength);
+
+            uint cFonts = 0;
+
+            AddFontMemResourceEx(ptrData, (uint)fontArray.Length, IntPtr.Zero, ref cFonts);
+
+            PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddMemoryFont(ptrData, dataLength);
+
+            Marshal.FreeCoTaskMem(ptrData);
+
+            ff = pfc.Families[0];
+            font = new Font(ff, 15f, FontStyle.Regular);
+        }
+
+        private void AllocFont(Font f, Control c, float size)
+        {
+            FontStyle fontStyle = FontStyle.Regular;
+            c.Font = new Font(ff, size, fontStyle);
         }
 
 
