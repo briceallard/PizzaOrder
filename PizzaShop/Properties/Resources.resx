@@ -142,4 +142,40 @@
   <data name="minimize_thin_white_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Images\minimize-thin-white-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="specialties_white_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\specialties_white_24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="custom_white_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\custom_white_24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order_white_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\order-white-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Custom_920x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\Custom-920x250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu_920x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\Menu-920x250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Order_920x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\Order-920x250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Specials_920x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\Specials-920x250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\Logo-400x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_white_thick_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\info-white-thick-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_white_thin_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\info-white-thin-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_white_thick_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\settings-white-thick-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_white_thin_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Images\settings-white-thin-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

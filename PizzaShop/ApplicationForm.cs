@@ -25,18 +25,28 @@ namespace PizzaShop
             InitializeComponent();
         }
 
-        // Method allowing panel to act as title bar and be dragged like normal window
-        private void Title_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
+
+        /**************************************************************************
+         * 
+         * 
+         * MOUSE CLICK EVENTS, HOVER EFFECTS, AND WINDOW MANIBPULATION BELLOW
+         * 
+         * 
+         *************************************************************************/
+
+        /**
+         * 
+         * 
+         * TITLE BAR CUSTOMIZATION
+         * 
+         */ 
+        private void Title_MouseDownEvent(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
-        }
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void PB_Exit_MouseEnterEvent(object sender, EventArgs e)
@@ -67,6 +77,22 @@ namespace PizzaShop
                 this.WindowState = FormWindowState.Maximized;
         }
 
+        private void PB_Minimize_ClickEvent(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PB_Exit_ClickEvent(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        /**
+         * 
+         * 
+         * NAVIGATION MENU CUSTOMIZATION
+         * 
+         */
         private void PB_Minimize_MouseEnterEvent(object sender, EventArgs e)
         {
             PB_Minimize.Image = Properties.Resources.minimize_thick_white_16x16;
@@ -77,14 +103,111 @@ namespace PizzaShop
             PB_Minimize.Image = Properties.Resources.minimize_thin_white_16x16;
         }
 
-        private void PB_Minimize_ClickEvent(object sender, EventArgs e)
+        private void PB_Settings_MouseEnterEvent(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            PB_Settings.Image = Properties.Resources.settings_white_thick_24x24;
         }
 
-        private void PB_Exit_ClickEvent(object sender, EventArgs e)
+        private void PB_Settings_MouseLeaveEvent(object sender, EventArgs e)
         {
-            Application.Exit();
+            PB_Settings.Image = Properties.Resources.settings_white_thin_24x24;
+        }
+
+        private void PB_About_MouseEnterEvent(object sender, EventArgs e)
+        {
+            PB_About.Image = Properties.Resources.info_white_thick_24x24;
+        }
+
+        private void PB_About_MouseLeaveEvent(object sender, EventArgs e)
+        {
+            PB_About.Image = Properties.Resources.info_white_thin_24x24;
+        }
+        private void BTN_Nav_Menu_MouseEnterEvent(object sender, EventArgs e)
+        {
+            Lightup_Panel_Menu.BackColor = Utilities.ACCENT_COLOR;
+        }
+
+        private void BTN_Nav_Menu_MouseLeaveEvent(object sender, EventArgs e)
+        {
+            if (TC_Navigation.SelectedIndex == 0)
+                Lightup_Panel_Menu.BackColor = Utilities.ACCENT_COLOR;
+            else
+                Lightup_Panel_Menu.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Specialties_MouseEnterEvent(object sender, EventArgs e)
+        {
+            Lightup_Panel_Specialties.BackColor = Utilities.ACCENT_COLOR;
+        }
+
+        private void BTN_Nav_Specialties_MouseLeaveEvent(object sender, EventArgs e)
+        {
+            if (TC_Navigation.SelectedIndex == 1)
+                Lightup_Panel_Specialties.BackColor = Utilities.ACCENT_COLOR;
+            else
+                Lightup_Panel_Specialties.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Custom_MouseEnterEvent(object sender, EventArgs e)
+        {
+            Lightup_Panel_Custom.BackColor = Utilities.ACCENT_COLOR;
+        }
+
+        private void BTN_Nav_Custom_MouseLeaveEvent(object sender, EventArgs e)
+        {
+            if (TC_Navigation.SelectedIndex == 2)
+                Lightup_Panel_Custom.BackColor = Utilities.ACCENT_COLOR;
+            else
+                Lightup_Panel_Custom.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Order_MouseEnterEvent(object sender, EventArgs e)
+        {
+            Lightup_Panel_Order.BackColor = Utilities.ACCENT_COLOR;
+        }
+
+        private void BTN_Nav_Order_MouseLeaveEvent(object sender, EventArgs e)
+        {
+            if (TC_Navigation.SelectedIndex == 3)
+                Lightup_Panel_Order.BackColor = Utilities.ACCENT_COLOR;
+            else
+                Lightup_Panel_Order.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Menu_Click(object sender, EventArgs e)
+        {
+            TC_Navigation.SelectedIndex = 0;
+            Lightup_Panel_Menu.BackColor = Utilities.ACCENT_COLOR;
+            Lightup_Panel_Specialties.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Custom.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Order.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Specialties_Click(object sender, EventArgs e)
+        {
+            TC_Navigation.SelectedIndex = 1;
+            Lightup_Panel_Menu.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Specialties.BackColor = Utilities.ACCENT_COLOR;
+            Lightup_Panel_Custom.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Order.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Custom_Click(object sender, EventArgs e)
+        {
+            TC_Navigation.SelectedIndex = 2;
+            Lightup_Panel_Menu.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Specialties.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Custom.BackColor = Utilities.ACCENT_COLOR;
+            Lightup_Panel_Order.BackColor = Utilities.SECONDARY_COLOR;
+        }
+
+        private void BTN_Nav_Order_Click(object sender, EventArgs e)
+        {
+            TC_Navigation.SelectedIndex = 3;
+            Lightup_Panel_Menu.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Specialties.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Custom.BackColor = Utilities.SECONDARY_COLOR;
+            Lightup_Panel_Order.BackColor = Utilities.ACCENT_COLOR;
         }
     }
 }

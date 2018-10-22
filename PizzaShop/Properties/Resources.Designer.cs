@@ -83,9 +83,59 @@ namespace PizzaShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_920x250 {
+            get {
+                object obj = ResourceManager.GetObject("Custom_920x250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap custom_white_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("custom_white_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info_white_thick_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("info_white_thick_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info_white_thin_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("info_white_thin_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_350x250 {
             get {
                 object obj = ResourceManager.GetObject("Logo_350x250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_400x400 {
+            get {
+                object obj = ResourceManager.GetObject("Logo_400x400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +156,16 @@ namespace PizzaShop.Properties {
         internal static System.Drawing.Bitmap maximize_inactive_white_16x16 {
             get {
                 object obj = ResourceManager.GetObject("maximize_inactive_white_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menu_920x250 {
+            get {
+                object obj = ResourceManager.GetObject("Menu_920x250", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +196,66 @@ namespace PizzaShop.Properties {
         internal static System.Drawing.Bitmap minimize_thin_white_16x16 {
             get {
                 object obj = ResourceManager.GetObject("minimize_thin_white_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Order_920x250 {
+            get {
+                object obj = ResourceManager.GetObject("Order_920x250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap order_white_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("order_white_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_white_thick_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("settings_white_thick_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_white_thin_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("settings_white_thin_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Specials_920x250 {
+            get {
+                object obj = ResourceManager.GetObject("Specials_920x250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap specialties_white_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("specialties_white_24x24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Net4.1.0.0\lib\net40\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,6 +71,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -104,6 +108,42 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources\Images\minimize-thin-white-16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\specialties_white_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\custom_white_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\order-white-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Menu-920x250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom-920x250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Order-920x250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Specials-920x250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Logo-400x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\info-white-thick-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\info-white-thin-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\settings-white-thick-24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\settings-white-thin-24x24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
