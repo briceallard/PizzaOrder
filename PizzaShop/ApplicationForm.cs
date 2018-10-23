@@ -37,6 +37,12 @@ namespace PizzaShop
             loadFont();
         }
 
+        /**
+         * 
+         * 
+         * FONT CUSTOMIZATION
+         * 
+         */
         private void loadFont()
         {
             byte[] fontArray = Properties.Resources.Italiano;
@@ -64,7 +70,6 @@ namespace PizzaShop
             FontStyle fontStyle = FontStyle.Regular;
             c.Font = new Font(ff, size, fontStyle);
         }
-
 
         /**************************************************************************
          * 
@@ -248,6 +253,26 @@ namespace PizzaShop
             Lightup_Panel_Specialties.BackColor = Utilities.SECONDARY_COLOR;
             Lightup_Panel_Custom.BackColor = Utilities.SECONDARY_COLOR;
             Lightup_Panel_Order.BackColor = Utilities.ACCENT_COLOR;
+        }
+
+        /**
+         * 
+         * 
+         * MENU TAB CUSTOMIZATION
+         * 
+         */
+        private void BTN_Order_MouseEnter(object sender, EventArgs e)
+        {
+            Button btn = ((Button)sender);
+            btn.FlatAppearance.BorderColor = Utilities.ACCENT_COLOR;
+            btn.ForeColor = Utilities.ACCENT_COLOR;
+        }
+
+        private void BTN_Order_MouseLeave(object sender, EventArgs e)
+        {
+            Button btn = ((Button)sender);
+            btn.FlatAppearance.BorderColor = Color.Black;
+            btn.ForeColor = Color.Black;
         }
     }
 }

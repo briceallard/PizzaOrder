@@ -63,6 +63,26 @@ namespace PizzaShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bbq_pizza {
+            get {
+                object obj = ResourceManager.GetObject("bbq_pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bbq_pizza_small {
+            get {
+                object obj = ResourceManager.GetObject("bbq_pizza_small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cheese_pizza {
             get {
                 object obj = ResourceManager.GetObject("cheese_pizza", resourceCulture);
@@ -253,6 +273,26 @@ namespace PizzaShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pepperoni_pizza {
+            get {
+                object obj = ResourceManager.GetObject("pepperoni_pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pepperoni_pizza_small {
+            get {
+                object obj = ResourceManager.GetObject("pepperoni_pizza_small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap settings_white_thick_24x24 {
             get {
                 object obj = ResourceManager.GetObject("settings_white_thick_24x24", resourceCulture);
@@ -286,6 +326,26 @@ namespace PizzaShop.Properties {
         internal static System.Drawing.Bitmap specialties_white_24x24 {
             get {
                 object obj = ResourceManager.GetObject("specialties_white_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supreme_pizza {
+            get {
+                object obj = ResourceManager.GetObject("supreme_pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supreme_pizza_small {
+            get {
+                object obj = ResourceManager.GetObject("supreme_pizza_small", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
