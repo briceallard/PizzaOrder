@@ -150,25 +150,25 @@
     <EmbeddedResource Include="Properties\Resources\Images\Pizza\cheese-pizza.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\cheese-pizza-small.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\cheese-pizza-small.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\pepperoni-pizza.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\pepperoni-pizza.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\pepperoni-pizza-small.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\pepperoni-pizza-small.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\bbq-pizza-small.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\bbq-pizza-small.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\bbq-pizza.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\bbq-pizza.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\supreme-pizza.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\supreme-pizza.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Resources\Images\Pizza\supreme-pizza-small.png" />
+    <EmbeddedResource Include="Properties\Resources\Images\Pizza\supreme-pizza-small.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
