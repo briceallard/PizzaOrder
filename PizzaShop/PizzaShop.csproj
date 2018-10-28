@@ -170,5 +170,20 @@
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources\Images\Pizza\supreme-pizza-small.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Pizza\taco-pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Pizza\breakfast-pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Pizza\spinach-pizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Pizza\loaded-potato-pizza.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

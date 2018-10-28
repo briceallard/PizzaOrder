@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
+using System.Linq;
 
 namespace PizzaShop
 {
@@ -84,7 +80,7 @@ namespace PizzaShop
          * 
          * TITLE BAR CUSTOMIZATION
          * 
-         */ 
+         */
         private void Title_MouseDownEvent(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -273,6 +269,44 @@ namespace PizzaShop
             Button btn = ((Button)sender);
             btn.FlatAppearance.BorderColor = Color.Black;
             btn.ForeColor = Color.Black;
+        }
+
+        private void PNL_UpdatePrice(object sender, EventArgs e)
+        {
+            string name = ((ComboBox)sender).Name;
+
+            if (name.StartsWith("CB_Cheese_"))
+            {
+                double price = Utilities.getPrice(CB_Cheese_Size) +
+                    Utilities.getPrice(CB_Cheese_Crust) +
+                    Utilities.getPrice(CB_Cheese_Toppings);
+
+                LBL_Cheese_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_Pepperoni_"))
+            {
+                double price = Utilities.getPrice(CB_Pepperoni_Size) +
+                    Utilities.getPrice(CB_Pepperoni_Crust) +
+                    Utilities.getPrice(CB_Pepperoni_Toppings);
+
+                LBL_Pepperoni_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_BBQ_"))
+            {
+                double price = Utilities.getPrice(CB_BBQ_Size) +
+                    Utilities.getPrice(CB_BBQ_Crust) +
+                    Utilities.getPrice(CB_BBQ_Toppings);
+
+                LBL_BBQ_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_Supreme_"))
+            {
+                double price = Utilities.getPrice(CB_Supreme_Size) +
+                    Utilities.getPrice(CB_Supreme_Crust) +
+                    Utilities.getPrice(CB_Supreme_Toppings);
+
+                LBL_Supreme_Price.Text = $"${price.ToString()}";
+            }
         }
     }
 }
