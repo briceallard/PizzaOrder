@@ -1,0 +1,35 @@
+[33mcommit 09f1bd715a7699e7c7996cbbef9e9a3ca1564755[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Sat Oct 27 22:26:46 2018 -0500
+
+    Menu updated. Needs Order button config
+
+[33mcommit b3c351f4fa65cdcd2fdb3acf65a753dff7bb06f7[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Tue Oct 23 02:06:28 2018 -0500
+
+    added embedded resources
+
+[33mcommit c1b7908ad10c138f7a38fa60acffbfd08cca2964[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Tue Oct 23 02:03:34 2018 -0500
+
+    design of Menu tab complete
+
+[33mcommit 8448dbfb98140c3a3df132968d4b268d34bd4b84[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Mon Oct 22 03:26:58 2018 -0500
+
+    More styling
+
+[33mcommit f42f9be1c6e95c8afd04bc90e0eda41dce8bc26c[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Sun Oct 21 23:57:43 2018 -0500
+
+    added image resources and nav controller
+
+[33mcommit c197740f26fb1e3ed182d0a6d762645ade00915b[m
+Author: Brice Allard <briceallard@gmail.com>
+Date:   Sun Oct 21 04:24:44 2018 -0500
+
+    initial commit. Some UI elements created
