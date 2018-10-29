@@ -185,5 +185,92 @@
   <ItemGroup>
     <None Include="Properties\Resources\Images\Pizza\loaded-potato-pizza.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Crust\crust_handtossed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Crust\crust_pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Crust\crust_stuffed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Crust\crust_thin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Bacon_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Bacon_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_BananaPepper_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_BananaPepper_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_GreenBellPepper_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_GreenBellPepper_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Ham_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Ham_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_ItalianSausage_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_ItalianSausage_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Jalepeno_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Jalepeno_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Mushroom_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Olives_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Olives_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Onion_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Onion_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Pepperoni_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Pepperoni_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Pineapple_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Pineapple_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Tomato_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Tomato_reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\cheese_mozz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Images\Custom\Toppings\topping_Mushroom_extra.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using System.Linq;
 
 namespace PizzaShop
 {
@@ -31,6 +29,25 @@ namespace PizzaShop
         private void ApplicationForm_Load(object sender, EventArgs e)
         {
             loadFont();
+
+            CustomImage(Utilities.CRUST_HANDTOSSED);
+            CustomImage(Utilities.TOP_MOZZ);
+        }
+
+        private void CustomImage(Bitmap bitmap)
+        {
+            PictureBox pb = new PictureBox
+            {
+                Size = new Size(341, 316),
+                Location = new Point(4, 5),
+                Margin = new Padding(3, 3, 3, 3),
+                BackgroundImageLayout = ImageLayout.Center,
+                BackColor = Color.Transparent,
+                BackgroundImage = bitmap
+            };
+
+            PNL_Custom_ImageHolder.Controls.Add(pb);
+            pb.BringToFront();
         }
 
         /**

@@ -255,19 +255,18 @@
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.label14 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label5 = new System.Windows.Forms.Label();
             this.PNL_Custom_ImageHolder = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.PB_Custom_Title = new System.Windows.Forms.PictureBox();
             this.TC_Tab_Cart = new System.Windows.Forms.TabPage();
             this.PB_Order_Title = new System.Windows.Forms.PictureBox();
@@ -322,10 +321,8 @@
             this.panel18.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
-            this.PNL_Custom_ImageHolder.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Custom_Title)).BeginInit();
             this.TC_Tab_Cart.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Order_Title)).BeginInit();
@@ -2231,7 +2228,7 @@
             this.panel16.Controls.Add(this.panel18);
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Controls.Add(this.label24);
-            this.panel16.Location = new System.Drawing.Point(5, 176);
+            this.panel16.Location = new System.Drawing.Point(-22, 176);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(532, 748);
             this.panel16.TabIndex = 3;
@@ -3238,7 +3235,7 @@
             this.panel15.Controls.Add(this.radioButton9);
             this.panel15.Controls.Add(this.radioButton10);
             this.panel15.Controls.Add(this.label14);
-            this.panel15.Location = new System.Drawing.Point(5, 120);
+            this.panel15.Location = new System.Drawing.Point(-22, 120);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(532, 50);
             this.panel15.TabIndex = 2;
@@ -3305,6 +3302,68 @@
             this.label14.TabIndex = 0;
             this.label14.Text = "- Sauce -";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel13
+            // 
+            this.panel13.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel13.Controls.Add(this.radioButton3);
+            this.panel13.Controls.Add(this.radioButton2);
+            this.panel13.Controls.Add(this.radioButton1);
+            this.panel13.Controls.Add(this.label5);
+            this.panel13.Location = new System.Drawing.Point(-22, 3);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(532, 52);
+            this.panel13.TabIndex = 0;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(315, 24);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(62, 21);
+            this.radioButton3.TabIndex = 3;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Large";
+            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(231, 24);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(78, 21);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Medium";
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(165, 24);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(60, 21);
+            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Small";
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(532, 21);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "- Size -";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel14
             // 
@@ -3381,86 +3440,13 @@
             this.label6.Text = "- Crust -";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel13
-            // 
-            this.panel13.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel13.Controls.Add(this.radioButton3);
-            this.panel13.Controls.Add(this.radioButton2);
-            this.panel13.Controls.Add(this.radioButton1);
-            this.panel13.Controls.Add(this.label5);
-            this.panel13.Location = new System.Drawing.Point(5, 3);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(532, 52);
-            this.panel13.TabIndex = 0;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(315, 24);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(62, 21);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Large";
-            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(231, 24);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(78, 21);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Medium";
-            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(165, 24);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(60, 21);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Small";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(532, 21);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "- Size -";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // PNL_Custom_ImageHolder
             // 
             this.PNL_Custom_ImageHolder.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.PNL_Custom_ImageHolder.Controls.Add(this.pictureBox7);
             this.PNL_Custom_ImageHolder.Location = new System.Drawing.Point(46, 259);
             this.PNL_Custom_ImageHolder.Name = "PNL_Custom_ImageHolder";
             this.PNL_Custom_ImageHolder.Size = new System.Drawing.Size(350, 324);
             this.PNL_Custom_ImageHolder.TabIndex = 8;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::PizzaShop.Properties.Resources.bbq_pizza_small;
-            this.pictureBox7.Location = new System.Drawing.Point(17, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(316, 298);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
             // 
             // PB_Custom_Title
             // 
@@ -3776,12 +3762,10 @@
             this.panel17.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
-            this.PNL_Custom_ImageHolder.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Custom_Title)).EndInit();
             this.TC_Tab_Cart.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PB_Order_Title)).EndInit();
@@ -4056,7 +4040,6 @@
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 
