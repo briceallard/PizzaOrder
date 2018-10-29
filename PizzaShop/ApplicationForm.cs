@@ -307,6 +307,38 @@ namespace PizzaShop
 
                 LBL_Supreme_Price.Text = $"${price.ToString()}";
             }
+            else if (name.StartsWith("CB_Taco_"))
+            {
+                double price = Utilities.getPrice(CB_Taco_Size) +
+                    Utilities.getPrice(CB_Taco_Crust) +
+                    Utilities.getPrice(CB_Taco_Toppings);
+
+                LBL_Taco_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_Breakfast_"))
+            {
+                double price = Utilities.getPrice(CB_Breakfast_Size) +
+                    Utilities.getPrice(CB_Breakfast_Crust) +
+                    Utilities.getPrice(CB_Breakfast_Toppings);
+
+                LBL_Breakfast_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_Spinach_"))
+            {
+                double price = Utilities.getPrice(CB_Spinach_Size) +
+                    Utilities.getPrice(CB_Spinach_Crust) +
+                    Utilities.getPrice(CB_Spinach_Toppings);
+
+                LBL_Spinach_Price.Text = $"${price.ToString()}";
+            }
+            else if (name.StartsWith("CB_Potato_"))
+            {
+                double price = Utilities.getPrice(CB_Potato_Size) +
+                    Utilities.getPrice(CB_Potato_Crust) +
+                    Utilities.getPrice(CB_Potato_Toppings);
+
+                LBL_Potato_Price.Text = $"${price.ToString()}";
+            }
         }
     }
 }

@@ -1473,6 +1473,7 @@
             this.CB_Taco_Crust.Size = new System.Drawing.Size(168, 25);
             this.CB_Taco_Crust.TabIndex = 5;
             this.CB_Taco_Crust.Text = "- Crust -";
+            this.CB_Taco_Crust.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // CB_Taco_Size
             // 
@@ -1490,6 +1491,7 @@
             this.CB_Taco_Size.Size = new System.Drawing.Size(168, 25);
             this.CB_Taco_Size.TabIndex = 4;
             this.CB_Taco_Size.Text = "- Size -";
+            this.CB_Taco_Size.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // label11
             // 
@@ -1531,6 +1533,7 @@
             this.CB_Taco_Toppings.Size = new System.Drawing.Size(168, 25);
             this.CB_Taco_Toppings.TabIndex = 1;
             this.CB_Taco_Toppings.Text = "- Toppings -";
+            this.CB_Taco_Toppings.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // panel9
             // 
@@ -1673,6 +1676,7 @@
             this.CB_Breakfast_Crust.Size = new System.Drawing.Size(169, 25);
             this.CB_Breakfast_Crust.TabIndex = 17;
             this.CB_Breakfast_Crust.Text = "- Crust -";
+            this.CB_Breakfast_Crust.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // CB_Breakfast_Size
             // 
@@ -1690,6 +1694,7 @@
             this.CB_Breakfast_Size.Size = new System.Drawing.Size(169, 25);
             this.CB_Breakfast_Size.TabIndex = 16;
             this.CB_Breakfast_Size.Text = "- Size -";
+            this.CB_Breakfast_Size.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // label20
             // 
@@ -1731,6 +1736,7 @@
             this.CB_Breakfast_Toppings.Size = new System.Drawing.Size(169, 25);
             this.CB_Breakfast_Toppings.TabIndex = 13;
             this.CB_Breakfast_Toppings.Text = "- Toppings -";
+            this.CB_Breakfast_Toppings.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // panel10
             // 
@@ -1874,6 +1880,7 @@
             this.CB_Spinach_Crust.Size = new System.Drawing.Size(185, 25);
             this.CB_Spinach_Crust.TabIndex = 17;
             this.CB_Spinach_Crust.Text = "- Crust -";
+            this.CB_Spinach_Crust.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // CB_Spinach_Size
             // 
@@ -1891,6 +1898,7 @@
             this.CB_Spinach_Size.Size = new System.Drawing.Size(185, 25);
             this.CB_Spinach_Size.TabIndex = 16;
             this.CB_Spinach_Size.Text = "- Size -";
+            this.CB_Spinach_Size.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // label29
             // 
@@ -1932,6 +1940,7 @@
             this.CB_Spinach_Toppings.Size = new System.Drawing.Size(185, 25);
             this.CB_Spinach_Toppings.TabIndex = 13;
             this.CB_Spinach_Toppings.Text = "- Toppings -";
+            this.CB_Spinach_Toppings.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // panel11
             // 
@@ -2075,6 +2084,7 @@
             this.CB_Potato_Crust.Size = new System.Drawing.Size(169, 25);
             this.CB_Potato_Crust.TabIndex = 17;
             this.CB_Potato_Crust.Text = "- Crust -";
+            this.CB_Potato_Crust.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // CB_Potato_Size
             // 
@@ -2092,6 +2102,7 @@
             this.CB_Potato_Size.Size = new System.Drawing.Size(169, 25);
             this.CB_Potato_Size.TabIndex = 16;
             this.CB_Potato_Size.Text = "- Size -";
+            this.CB_Potato_Size.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // label38
             // 
@@ -2133,6 +2144,7 @@
             this.CB_Potato_Toppings.Size = new System.Drawing.Size(169, 25);
             this.CB_Potato_Toppings.TabIndex = 13;
             this.CB_Potato_Toppings.Text = "- Toppings -";
+            this.CB_Potato_Toppings.SelectedIndexChanged += new System.EventHandler(this.PNL_UpdatePrice);
             // 
             // label1
             // 
@@ -2203,8 +2215,8 @@
             this.panel12.AutoScroll = true;
             this.panel12.Controls.Add(this.panel16);
             this.panel12.Controls.Add(this.panel15);
-            this.panel12.Controls.Add(this.panel14);
             this.panel12.Controls.Add(this.panel13);
+            this.panel12.Controls.Add(this.panel14);
             this.panel12.Location = new System.Drawing.Point(397, 259);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(562, 368);
@@ -2219,9 +2231,9 @@
             this.panel16.Controls.Add(this.panel18);
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Controls.Add(this.label24);
-            this.panel16.Location = new System.Drawing.Point(-31, 179);
+            this.panel16.Location = new System.Drawing.Point(5, 176);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(537, 748);
+            this.panel16.Size = new System.Drawing.Size(532, 748);
             this.panel16.TabIndex = 3;
             // 
             // button2
@@ -2230,7 +2242,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(360, 698);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 45);
+            this.button2.Size = new System.Drawing.Size(169, 45);
             this.button2.TabIndex = 5;
             this.button2.Text = "Order Now";
             this.button2.UseVisualStyleBackColor = false;
@@ -2275,7 +2287,7 @@
             this.panel19.Controls.Add(this.label39);
             this.panel19.Location = new System.Drawing.Point(360, 25);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(172, 667);
+            this.panel19.Size = new System.Drawing.Size(169, 667);
             this.panel19.TabIndex = 3;
             // 
             // checkBox49
@@ -2560,7 +2572,7 @@
             this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(0, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(172, 21);
+            this.label39.Size = new System.Drawing.Size(169, 21);
             this.label39.TabIndex = 1;
             this.label39.Text = "Right Side";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2859,6 +2871,7 @@
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(54, 20);
             this.checkBox47.TabIndex = 26;
+            this.checkBox47.Tag = "L_Pepperoni_extra";
             this.checkBox47.Text = "Extra";
             this.checkBox47.UseVisualStyleBackColor = true;
             // 
@@ -2870,6 +2883,7 @@
             this.checkBox48.Name = "checkBox48";
             this.checkBox48.Size = new System.Drawing.Size(93, 21);
             this.checkBox48.TabIndex = 25;
+            this.checkBox48.Tag = "L_Pepperoni";
             this.checkBox48.Text = "Pepperoni";
             this.checkBox48.UseVisualStyleBackColor = true;
             // 
@@ -3178,6 +3192,7 @@
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(54, 20);
             this.checkBox4.TabIndex = 2;
+            this.checkBox4.Tag = "B_Pepperoni_extra";
             this.checkBox4.Text = "Extra";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -3189,6 +3204,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(93, 21);
             this.checkBox1.TabIndex = 1;
+            this.checkBox1.Tag = "B_Pepperoni";
             this.checkBox1.Text = "Pepperoni";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -3209,7 +3225,7 @@
             this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(0, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(537, 21);
+            this.label24.Size = new System.Drawing.Size(532, 21);
             this.label24.TabIndex = 1;
             this.label24.Text = "- Toppings -";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3222,9 +3238,9 @@
             this.panel15.Controls.Add(this.radioButton9);
             this.panel15.Controls.Add(this.radioButton10);
             this.panel15.Controls.Add(this.label14);
-            this.panel15.Location = new System.Drawing.Point(-31, 120);
+            this.panel15.Location = new System.Drawing.Point(5, 120);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(538, 52);
+            this.panel15.Size = new System.Drawing.Size(532, 50);
             this.panel15.TabIndex = 2;
             // 
             // radioButton11
@@ -3285,7 +3301,7 @@
             this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(0, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(538, 21);
+            this.label14.Size = new System.Drawing.Size(532, 21);
             this.label14.TabIndex = 0;
             this.label14.Text = "- Sauce -";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3299,7 +3315,7 @@
             this.panel14.Controls.Add(this.label6);
             this.panel14.Location = new System.Drawing.Point(5, 61);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(538, 53);
+            this.panel14.Size = new System.Drawing.Size(532, 53);
             this.panel14.TabIndex = 1;
             // 
             // radioButton7
@@ -3356,11 +3372,11 @@
             // 
             // label6
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(538, 21);
+            this.label6.Size = new System.Drawing.Size(532, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "- Crust -";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3372,9 +3388,9 @@
             this.panel13.Controls.Add(this.radioButton2);
             this.panel13.Controls.Add(this.radioButton1);
             this.panel13.Controls.Add(this.label5);
-            this.panel13.Location = new System.Drawing.Point(-31, 3);
+            this.panel13.Location = new System.Drawing.Point(5, 3);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(538, 52);
+            this.panel13.Size = new System.Drawing.Size(532, 52);
             this.panel13.TabIndex = 0;
             // 
             // radioButton3
@@ -3422,7 +3438,7 @@
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(0, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(538, 21);
+            this.label5.Size = new System.Drawing.Size(532, 21);
             this.label5.TabIndex = 0;
             this.label5.Text = "- Size -";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
