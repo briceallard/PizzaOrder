@@ -2228,7 +2228,7 @@
             this.panel16.Controls.Add(this.panel18);
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Controls.Add(this.label24);
-            this.panel16.Location = new System.Drawing.Point(-22, 176);
+            this.panel16.Location = new System.Drawing.Point(-31, 176);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(532, 748);
             this.panel16.TabIndex = 3;
@@ -3235,7 +3235,7 @@
             this.panel15.Controls.Add(this.radioButton9);
             this.panel15.Controls.Add(this.radioButton10);
             this.panel15.Controls.Add(this.label14);
-            this.panel15.Location = new System.Drawing.Point(-22, 120);
+            this.panel15.Location = new System.Drawing.Point(-31, 120);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(532, 50);
             this.panel15.TabIndex = 2;
@@ -3310,7 +3310,7 @@
             this.panel13.Controls.Add(this.radioButton2);
             this.panel13.Controls.Add(this.radioButton1);
             this.panel13.Controls.Add(this.label5);
-            this.panel13.Location = new System.Drawing.Point(-22, 3);
+            this.panel13.Location = new System.Drawing.Point(-31, 3);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(532, 52);
             this.panel13.TabIndex = 0;
@@ -3443,6 +3443,7 @@
             // PNL_Custom_ImageHolder
             // 
             this.PNL_Custom_ImageHolder.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.PNL_Custom_ImageHolder.BackColor = System.Drawing.Color.Transparent;
             this.PNL_Custom_ImageHolder.Location = new System.Drawing.Point(46, 259);
             this.PNL_Custom_ImageHolder.Name = "PNL_Custom_ImageHolder";
             this.PNL_Custom_ImageHolder.Size = new System.Drawing.Size(350, 324);

@@ -30,23 +30,20 @@ namespace PizzaShop
         {
             loadFont();
 
-            CustomImage(Utilities.CRUST_HANDTOSSED);
             CustomImage(Utilities.TOP_MOZZ);
+            CustomImage(Utilities.TOP_JALEPENO_X);
         }
 
-        private void CustomImage(Bitmap bitmap)
+        private void CustomImage(Image image)
         {
-            PictureBox pb = new PictureBox
-            {
-                Size = new Size(341, 316),
-                Location = new Point(4, 5),
-                Margin = new Padding(3, 3, 3, 3),
-                BackgroundImageLayout = ImageLayout.Center,
-                BackColor = Color.Transparent,
-                BackgroundImage = bitmap
-            };
-
-            PNL_Custom_ImageHolder.Controls.Add(pb);
+            Panel pb = new Panel();
+            pb.Parent = PNL_Custom_ImageHolder;
+            pb.Size = new Size(341, 316);
+            pb.Location = new Point(4, 5);
+            pb.Margin = new Padding(3, 3, 3, 3);
+            pb.BackgroundImageLayout = ImageLayout.Stretch;
+            pb.BackColor = Color.Transparent;
+            pb.BackgroundImage = image;
             pb.BringToFront();
         }
 

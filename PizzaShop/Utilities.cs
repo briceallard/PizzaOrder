@@ -14,35 +14,35 @@ namespace PizzaShop
          *  IMAGES FOR PIZZA CUSTIMIZATION
          * 
         **/
-        public static readonly Bitmap CRUST_HANDTOSSED = Properties.Resources.crust_handtossed;
-        public static readonly Bitmap CRUST_PAN = Properties.Resources.crust_pan;
-        public static readonly Bitmap CRUST_STUFFED = Properties.Resources.crust_stuffed;
-        public static readonly Bitmap CRUST_THIN = Properties.Resources.crust_thin;
-        public static readonly Bitmap TOP_MOZZ = Properties.Resources.cheese_mozz;
-        public static readonly Bitmap TOP_BACON_X = Properties.Resources.topping_Bacon_extra;
-        public static readonly Bitmap TOP_BACON = Properties.Resources.topping_Bacon_reg;
-        public static readonly Bitmap TOP_BANANA_PEPPER_X = Properties.Resources.topping_BananaPepper_extra;
-        public static readonly Bitmap TOP_BANANA_PEPPER = Properties.Resources.topping_BananaPepper_reg;
-        public static readonly Bitmap TOP_BELL_PEPPER_X = Properties.Resources.topping_GreenBellPepper_extra;
-        public static readonly Bitmap TOP_BELL_PEPPER = Properties.Resources.topping_GreenBellPepper_reg;
-        public static readonly Bitmap TOP_HAM_X = Properties.Resources.topping_Ham_extra;
-        public static readonly Bitmap TOP_HAM = Properties.Resources.topping_Ham_reg;
-        public static readonly Bitmap TOP_SAUSAGE_X = Properties.Resources.topping_ItalianSausage_extra;
-        public static readonly Bitmap TOP_SAUSAGE = Properties.Resources.topping_ItalianSausage_reg;
-        public static readonly Bitmap TOP_JALEPENO_X = Properties.Resources.topping_Jalepeno_extra;
-        public static readonly Bitmap TOP_JALEPENO = Properties.Resources.topping_Jalepeno_reg;
-        public static readonly Bitmap TOP_MUSHROOM_X = Properties.Resources.topping_Mushroom_extra;
-        public static readonly Bitmap TOP_MUSHROOM = Properties.Resources.topping_Mushroom_reg;
-        public static readonly Bitmap TOP_OLIVE_X = Properties.Resources.topping_Olives_extra;
-        public static readonly Bitmap TOP_OLIVE = Properties.Resources.topping_Olives_reg;
-        public static readonly Bitmap TOP_ONION_X = Properties.Resources.topping_Onion_extra;
-        public static readonly Bitmap TOP_ONION = Properties.Resources.topping_Onion_reg;
-        public static readonly Bitmap TOP_PEPPERONI_X = Properties.Resources.topping_Pepperoni_extra;
-        public static readonly Bitmap TOP_PEPPERONI = Properties.Resources.topping_Pepperoni_reg;
-        public static readonly Bitmap TOP_PINEAPPLE_X = Properties.Resources.topping_Pineapple_extra;
-        public static readonly Bitmap TOP_PINEAPPLE = Properties.Resources.topping_Pineapple_reg;
-        public static readonly Bitmap TOP_TOMATO_X = Properties.Resources.topping_Tomato_extra;
-        public static readonly Bitmap TOP_TOMATO = Properties.Resources.topping_Tomato_reg;
+        public static readonly Image CRUST_HANDTOSSED = Properties.Resources.crust_handtossed;
+        public static readonly Image CRUST_PAN = Properties.Resources.crust_pan;
+        public static readonly Image CRUST_STUFFED = Properties.Resources.crust_stuffed;
+        public static readonly Image CRUST_THIN = Properties.Resources.crust_thin;
+        public static readonly Image TOP_MOZZ = Properties.Resources.cheese_mozz;
+        public static readonly Image TOP_BACON_X = Properties.Resources.topping_Bacon_extra;
+        public static readonly Image TOP_BACON = Properties.Resources.topping_Bacon_reg;
+        public static readonly Image TOP_BANANA_PEPPER_X = Properties.Resources.topping_BananaPepper_extra;
+        public static readonly Image TOP_BANANA_PEPPER = Properties.Resources.topping_BananaPepper_reg;
+        public static readonly Image TOP_BELL_PEPPER_X = Properties.Resources.topping_GreenBellPepper_extra;
+        public static readonly Image TOP_BELL_PEPPER = Properties.Resources.topping_GreenBellPepper_reg;
+        public static readonly Image TOP_HAM_X = Properties.Resources.topping_Ham_extra;
+        public static readonly Image TOP_HAM = Properties.Resources.topping_Ham_reg;
+        public static readonly Image TOP_SAUSAGE_X = Properties.Resources.topping_ItalianSausage_extra;
+        public static readonly Image TOP_SAUSAGE = Properties.Resources.topping_ItalianSausage_reg;
+        public static readonly Image TOP_JALEPENO_X = Properties.Resources.topping_Jalepeno_extra;
+        public static readonly Image TOP_JALEPENO = Properties.Resources.topping_Jalepeno_reg;
+        public static readonly Image TOP_MUSHROOM_X = Properties.Resources.topping_Mushroom_extra;
+        public static readonly Image TOP_MUSHROOM = Properties.Resources.topping_Mushroom_reg;
+        public static readonly Image TOP_OLIVE_X = Properties.Resources.topping_Olives_extra;
+        public static readonly Image TOP_OLIVE = Properties.Resources.topping_Olives_reg;
+        public static readonly Image TOP_ONION_X = Properties.Resources.topping_Onion_extra;
+        public static readonly Image TOP_ONION = Properties.Resources.topping_Onion_reg;
+        public static readonly Image TOP_PEPPERONI_X = Properties.Resources.topping_Pepperoni_extra;
+        public static readonly Image TOP_PEPPERONI = Properties.Resources.topping_Pepperoni_reg;
+        public static readonly Image TOP_PINEAPPLE_X = Properties.Resources.topping_Pineapple_extra;
+        public static readonly Image TOP_PINEAPPLE = Properties.Resources.topping_Pineapple_reg;
+        public static readonly Image TOP_TOMATO_X = Properties.Resources.topping_Tomato_extra;
+        public static readonly Image TOP_TOMATO = Properties.Resources.topping_Tomato_reg;
 
         /**
          * 
