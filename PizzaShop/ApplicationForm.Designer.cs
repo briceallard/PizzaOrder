@@ -164,90 +164,96 @@
             this.label1 = new System.Windows.Forms.Label();
             this.PB_Specials_Title = new System.Windows.Forms.PictureBox();
             this.TC_Tab_Custom = new System.Windows.Forms.TabPage();
-            this.label23 = new System.Windows.Forms.Label();
+            this.LBL_Cstm_Price = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
-            this.checkBox50 = new System.Windows.Forms.CheckBox();
-            this.checkBox51 = new System.Windows.Forms.CheckBox();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
-            this.checkBox53 = new System.Windows.Forms.CheckBox();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
-            this.checkBox55 = new System.Windows.Forms.CheckBox();
-            this.checkBox56 = new System.Windows.Forms.CheckBox();
-            this.checkBox57 = new System.Windows.Forms.CheckBox();
-            this.checkBox58 = new System.Windows.Forms.CheckBox();
-            this.checkBox59 = new System.Windows.Forms.CheckBox();
-            this.checkBox60 = new System.Windows.Forms.CheckBox();
-            this.checkBox61 = new System.Windows.Forms.CheckBox();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.checkBox63 = new System.Windows.Forms.CheckBox();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
-            this.checkBox65 = new System.Windows.Forms.CheckBox();
-            this.checkBox66 = new System.Windows.Forms.CheckBox();
-            this.checkBox67 = new System.Windows.Forms.CheckBox();
-            this.checkBox68 = new System.Windows.Forms.CheckBox();
-            this.checkBox69 = new System.Windows.Forms.CheckBox();
-            this.checkBox70 = new System.Windows.Forms.CheckBox();
-            this.checkBox71 = new System.Windows.Forms.CheckBox();
-            this.checkBox72 = new System.Windows.Forms.CheckBox();
-            this.label39 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.checkBox40 = new System.Windows.Forms.CheckBox();
-            this.checkBox41 = new System.Windows.Forms.CheckBox();
-            this.checkBox42 = new System.Windows.Forms.CheckBox();
-            this.checkBox43 = new System.Windows.Forms.CheckBox();
-            this.checkBox44 = new System.Windows.Forms.CheckBox();
-            this.checkBox45 = new System.Windows.Forms.CheckBox();
-            this.checkBox46 = new System.Windows.Forms.CheckBox();
-            this.checkBox47 = new System.Windows.Forms.CheckBox();
-            this.checkBox48 = new System.Windows.Forms.CheckBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label32 = new System.Windows.Forms.Label();
+            this.PNL_Tomatoes_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Tomatoes_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Tomatoes_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Tomatoes_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Tomatoes_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Tomatoes_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Tomatoes = new System.Windows.Forms.CheckBox();
+            this.PNL_Jalapenos_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Jalapeno_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Jalapeno_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Jalapeno_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Jalapeno_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Jalapeno_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Jalapeno = new System.Windows.Forms.CheckBox();
+            this.PNL_Pineapple_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Pineapple_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Pineapple_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Pineapple_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Pineapple_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Pineapple_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Pineapple = new System.Windows.Forms.CheckBox();
+            this.PNL_BananaPeppers_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_BananaPeppers_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_BananaPeppers_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_BananaPeppers_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_BananaPeppers_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_BananaPeppers_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_BananaPeppers = new System.Windows.Forms.CheckBox();
+            this.PNL_BellPeppers_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_BellPeppers_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_BellPeppers_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_BellPeppers_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_BellPeppers_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_BellPeppers_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_BellPeppers = new System.Windows.Forms.CheckBox();
+            this.PNL_Olives_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Olives_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Olives_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Olives_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Olives_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Olives_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Olives = new System.Windows.Forms.CheckBox();
+            this.PNL_Onions_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Onions_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Onions_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Onions_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Onions_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Onions_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Onions = new System.Windows.Forms.CheckBox();
+            this.PNL_Mushrooms_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Mushrooms_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Mushrooms_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Mushrooms_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Mushrooms_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Mushrooms_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Mushrooms = new System.Windows.Forms.CheckBox();
+            this.PNL_Bacon_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Bacon_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Bacon_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Bacon_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Bacon_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Bacon_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Bacon = new System.Windows.Forms.CheckBox();
+            this.PNL_Ham_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Ham_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Ham_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Ham_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Ham_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Ham_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Ham = new System.Windows.Forms.CheckBox();
+            this.PNL_Sausage_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Sausage_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Sausage_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Sausage_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Sausage_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Sausage_Reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Sausage = new System.Windows.Forms.CheckBox();
+            this.PNL_Pepperoni_Cstm = new System.Windows.Forms.Panel();
+            this.RB_Cstm_Pepperoni_Extra = new System.Windows.Forms.RadioButton();
+            this.PB_Cstm_Pepperoni_Whole = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Pepperoni_R = new System.Windows.Forms.PictureBox();
+            this.PB_Cstm_Pepperoni_L = new System.Windows.Forms.PictureBox();
+            this.RB_Cstm_Pepperoni_reg = new System.Windows.Forms.RadioButton();
+            this.CB_Cstm_Pepperoni = new System.Windows.Forms.CheckBox();
+            this.BTN_Cstm_Order = new System.Windows.Forms.Button();
+            this.BTN_Cstm_Clear = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
@@ -267,6 +273,7 @@
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.PNL_Custom_ImageHolder = new System.Windows.Forms.Panel();
+            this.PB_Cstm_PizzaImg = new System.Windows.Forms.PictureBox();
             this.PB_Custom_Title = new System.Windows.Forms.PictureBox();
             this.TC_Tab_Cart = new System.Windows.Forms.TabPage();
             this.PB_Order_Title = new System.Windows.Forms.PictureBox();
@@ -317,12 +324,59 @@
             this.TC_Tab_Custom.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel16.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel17.SuspendLayout();
+            this.PNL_Tomatoes_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_L)).BeginInit();
+            this.PNL_Jalapenos_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_L)).BeginInit();
+            this.PNL_Pineapple_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_L)).BeginInit();
+            this.PNL_BananaPeppers_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_L)).BeginInit();
+            this.PNL_BellPeppers_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_L)).BeginInit();
+            this.PNL_Olives_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_L)).BeginInit();
+            this.PNL_Onions_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_L)).BeginInit();
+            this.PNL_Mushrooms_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_L)).BeginInit();
+            this.PNL_Bacon_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_L)).BeginInit();
+            this.PNL_Ham_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_L)).BeginInit();
+            this.PNL_Sausage_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_L)).BeginInit();
+            this.PNL_Pepperoni_Cstm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_Whole)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_R)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_L)).BeginInit();
             this.panel15.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
+            this.PNL_Custom_ImageHolder.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_PizzaImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Custom_Title)).BeginInit();
             this.TC_Tab_Cart.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Order_Title)).BeginInit();
@@ -484,13 +538,13 @@
             this.LBL_Cheese_Description.TabIndex = 14;
             this.LBL_Cheese_Description.Text = "Your favorite cheese pizza made with classic marinara sauce topped with mozzarell" +
     "a cheese. When it comes to America\'s best, think Catterina\'s.";
-            this.LBL_Cheese_Description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBL_Cheese_Description.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // LBL_Cheese_Desc
             // 
             this.LBL_Cheese_Desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Cheese_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Cheese_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Cheese_Desc.Location = new System.Drawing.Point(119, 218);
             this.LBL_Cheese_Desc.Name = "LBL_Cheese_Desc";
             this.LBL_Cheese_Desc.Size = new System.Drawing.Size(263, 41);
@@ -568,7 +622,7 @@
             // 
             this.LBL_Cheese_Options.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Cheese_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Cheese_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Cheese_Options.Location = new System.Drawing.Point(119, 356);
             this.LBL_Cheese_Options.Name = "LBL_Cheese_Options";
             this.LBL_Cheese_Options.Size = new System.Drawing.Size(263, 41);
@@ -617,7 +671,7 @@
             // 
             this.LBL_Cheese.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Cheese.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Cheese.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Cheese.ForeColor = System.Drawing.Color.Black;
             this.LBL_Cheese.Location = new System.Drawing.Point(119, 0);
             this.LBL_Cheese.Name = "LBL_Cheese";
@@ -687,13 +741,13 @@
             this.label3.Size = new System.Drawing.Size(344, 93);
             this.label3.TabIndex = 27;
             this.label3.Text = resources.GetString("label3.Text");
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // LBL_Pepperoni_Desc
             // 
             this.LBL_Pepperoni_Desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Pepperoni_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Pepperoni_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Pepperoni_Desc.Location = new System.Drawing.Point(103, 224);
             this.LBL_Pepperoni_Desc.Name = "LBL_Pepperoni_Desc";
             this.LBL_Pepperoni_Desc.Size = new System.Drawing.Size(263, 41);
@@ -771,7 +825,7 @@
             // 
             this.LBL_Pepperoni_Options.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Pepperoni_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Pepperoni_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Pepperoni_Options.Location = new System.Drawing.Point(103, 356);
             this.LBL_Pepperoni_Options.Name = "LBL_Pepperoni_Options";
             this.LBL_Pepperoni_Options.Size = new System.Drawing.Size(263, 41);
@@ -820,7 +874,7 @@
             // 
             this.LBL_Pepperoni.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Pepperoni.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Pepperoni.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Pepperoni.ForeColor = System.Drawing.Color.Black;
             this.LBL_Pepperoni.Location = new System.Drawing.Point(103, 6);
             this.LBL_Pepperoni.Name = "LBL_Pepperoni";
@@ -885,20 +939,20 @@
             this.LBL_BBQ_Description.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LBL_BBQ_Description.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_BBQ_Description.Location = new System.Drawing.Point(79, 255);
+            this.LBL_BBQ_Description.Location = new System.Drawing.Point(79, 265);
             this.LBL_BBQ_Description.Name = "LBL_BBQ_Description";
-            this.LBL_BBQ_Description.Size = new System.Drawing.Size(341, 93);
+            this.LBL_BBQ_Description.Size = new System.Drawing.Size(341, 83);
             this.LBL_BBQ_Description.TabIndex = 26;
             this.LBL_BBQ_Description.Text = "A BBQ pizza topped with grilled chicken, bacon and red onion? Sign us up! This ov" +
     "en-hot pizza is also perfect for a group lunch or home delivery this Friday nigh" +
     "t.";
-            this.LBL_BBQ_Description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBL_BBQ_Description.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // LBL_BBQ_Desc
             // 
             this.LBL_BBQ_Desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_BBQ_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_BBQ_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_BBQ_Desc.Location = new System.Drawing.Point(102, 224);
             this.LBL_BBQ_Desc.Name = "LBL_BBQ_Desc";
             this.LBL_BBQ_Desc.Size = new System.Drawing.Size(263, 41);
@@ -976,6 +1030,7 @@
             // 
             this.LBL_BBQ_Options.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.LBL_BBQ_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_BBQ_Options.Location = new System.Drawing.Point(102, 348);
             this.LBL_BBQ_Options.Name = "LBL_BBQ_Options";
             this.LBL_BBQ_Options.Size = new System.Drawing.Size(263, 41);
@@ -1024,7 +1079,7 @@
             // 
             this.LBL_BBQ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_BBQ.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_BBQ.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_BBQ.ForeColor = System.Drawing.Color.Black;
             this.LBL_BBQ.Location = new System.Drawing.Point(102, 6);
             this.LBL_BBQ.Name = "LBL_BBQ";
@@ -1089,20 +1144,20 @@
             this.LBL_Supreme_Description.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LBL_Supreme_Description.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Supreme_Description.Location = new System.Drawing.Point(64, 255);
+            this.LBL_Supreme_Description.Location = new System.Drawing.Point(61, 265);
             this.LBL_Supreme_Description.Name = "LBL_Supreme_Description";
-            this.LBL_Supreme_Description.Size = new System.Drawing.Size(341, 93);
+            this.LBL_Supreme_Description.Size = new System.Drawing.Size(341, 83);
             this.LBL_Supreme_Description.TabIndex = 26;
             this.LBL_Supreme_Description.Text = "Featuring all the classic vegetable toppings you know and love—like mushrooms, re" +
     "d onions, green bell peppers, Roma tomatoes and black olives—this veggie pizza a" +
     " garden lover\'s dream!";
-            this.LBL_Supreme_Description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LBL_Supreme_Description.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // LBL_Supreme_Desc
             // 
             this.LBL_Supreme_Desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Supreme_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Supreme_Desc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Supreme_Desc.Location = new System.Drawing.Point(103, 224);
             this.LBL_Supreme_Desc.Name = "LBL_Supreme_Desc";
             this.LBL_Supreme_Desc.Size = new System.Drawing.Size(263, 41);
@@ -1180,6 +1235,7 @@
             // 
             this.LBL_Supreme_Options.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.LBL_Supreme_Options.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Supreme_Options.Location = new System.Drawing.Point(103, 348);
             this.LBL_Supreme_Options.Name = "LBL_Supreme_Options";
             this.LBL_Supreme_Options.Size = new System.Drawing.Size(263, 41);
@@ -1228,7 +1284,7 @@
             // 
             this.LBL_Supreme.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LBL_Supreme.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Supreme.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Supreme.ForeColor = System.Drawing.Color.Black;
             this.LBL_Supreme.Location = new System.Drawing.Point(103, 6);
             this.LBL_Supreme.Name = "LBL_Supreme";
@@ -1271,7 +1327,7 @@
             this.LBL_Menu_Pizza.BackColor = System.Drawing.Color.Transparent;
             this.LBL_Menu_Pizza.Dock = System.Windows.Forms.DockStyle.Top;
             this.LBL_Menu_Pizza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LBL_Menu_Pizza.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Menu_Pizza.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Menu_Pizza.ForeColor = System.Drawing.Color.Black;
             this.LBL_Menu_Pizza.Location = new System.Drawing.Point(3, 252);
             this.LBL_Menu_Pizza.Name = "LBL_Menu_Pizza";
@@ -1361,13 +1417,13 @@
             this.label2.TabIndex = 14;
             this.label2.Text = "Taco meat and cheese stuffed quesadillas made pizza style topped with salsa and e" +
     "ven more melted cheese. Spicy jalapenos for just the right amount of spice!";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(119, 218);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(263, 41);
@@ -1445,7 +1501,7 @@
             // 
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(119, 356);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(263, 41);
@@ -1494,7 +1550,7 @@
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(119, 0);
             this.label11.Name = "label11";
@@ -1564,13 +1620,13 @@
             this.label12.Size = new System.Drawing.Size(344, 93);
             this.label12.TabIndex = 27;
             this.label12.Text = resources.GetString("label12.Text");
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label13
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(103, 224);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(263, 41);
@@ -1648,7 +1704,7 @@
             // 
             this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(103, 356);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(263, 41);
@@ -1697,7 +1753,7 @@
             // 
             this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
             this.label20.Location = new System.Drawing.Point(103, 6);
             this.label20.Name = "label20";
@@ -1762,20 +1818,20 @@
             this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(79, 255);
+            this.label21.Location = new System.Drawing.Point(79, 265);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(341, 93);
+            this.label21.Size = new System.Drawing.Size(341, 82);
             this.label21.TabIndex = 26;
             this.label21.Text = "This isn\'t just any pizza. This is a thick crust, crispy edged, pan pizza topped " +
     "with a rich and creamy spinach sauce, chopped up artichoke hearts, and a final l" +
     "ayer of melted mozzarella cheese.";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label22
             // 
             this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(102, 224);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(263, 41);
@@ -1853,6 +1909,7 @@
             // 
             this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(102, 348);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(263, 41);
@@ -1901,7 +1958,7 @@
             // 
             this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.Black;
             this.label29.Location = new System.Drawing.Point(82, 6);
             this.label29.Name = "label29";
@@ -1966,20 +2023,20 @@
             this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(64, 255);
+            this.label30.Location = new System.Drawing.Point(61, 265);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(341, 93);
+            this.label30.Size = new System.Drawing.Size(341, 82);
             this.label30.TabIndex = 26;
             this.label30.Text = "this pizza is loaded with bacon, green onions, cheese, and sour cream. It tastes " +
     "just like a baked potato! Plus you’ll love this crispy deep dish pizza because i" +
     "t’s made in a cast iron skillet!";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label31
             // 
             this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(103, 224);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(263, 41);
@@ -2057,6 +2114,7 @@
             // 
             this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(103, 348);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(263, 41);
@@ -2105,7 +2163,7 @@
             // 
             this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.Color.Black;
             this.label38.Location = new System.Drawing.Point(103, 6);
             this.label38.Name = "label38";
@@ -2148,7 +2206,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 252);
             this.label1.Name = "label1";
@@ -2173,7 +2231,7 @@
             // TC_Tab_Custom
             // 
             this.TC_Tab_Custom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(109)))), ((int)(((byte)(123)))));
-            this.TC_Tab_Custom.Controls.Add(this.label23);
+            this.TC_Tab_Custom.Controls.Add(this.LBL_Cstm_Price);
             this.TC_Tab_Custom.Controls.Add(this.label15);
             this.TC_Tab_Custom.Controls.Add(this.panel12);
             this.TC_Tab_Custom.Controls.Add(this.PNL_Custom_ImageHolder);
@@ -2185,16 +2243,16 @@
             this.TC_Tab_Custom.TabIndex = 2;
             this.TC_Tab_Custom.Text = "Custom";
             // 
-            // label23
+            // LBL_Cstm_Price
             // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(230, 590);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(166, 35);
-            this.label23.TabIndex = 12;
-            this.label23.Text = "$0.00";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LBL_Cstm_Price.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.LBL_Cstm_Price.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Cstm_Price.Location = new System.Drawing.Point(230, 590);
+            this.LBL_Cstm_Price.Name = "LBL_Cstm_Price";
+            this.LBL_Cstm_Price.Size = new System.Drawing.Size(166, 35);
+            this.LBL_Cstm_Price.TabIndex = 12;
+            this.LBL_Cstm_Price.Text = "$0.00";
+            this.LBL_Cstm_Price.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label15
             // 
@@ -2221,1023 +2279,1052 @@
             // 
             // panel16
             // 
-            this.panel16.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel16.Controls.Add(this.button2);
-            this.panel16.Controls.Add(this.button1);
-            this.panel16.Controls.Add(this.panel19);
-            this.panel16.Controls.Add(this.panel18);
-            this.panel16.Controls.Add(this.panel17);
+            this.panel16.Controls.Add(this.PNL_Tomatoes_Cstm);
+            this.panel16.Controls.Add(this.PNL_Jalapenos_Cstm);
+            this.panel16.Controls.Add(this.PNL_Pineapple_Cstm);
+            this.panel16.Controls.Add(this.PNL_BananaPeppers_Cstm);
+            this.panel16.Controls.Add(this.PNL_BellPeppers_Cstm);
+            this.panel16.Controls.Add(this.PNL_Olives_Cstm);
+            this.panel16.Controls.Add(this.PNL_Onions_Cstm);
+            this.panel16.Controls.Add(this.PNL_Mushrooms_Cstm);
+            this.panel16.Controls.Add(this.PNL_Bacon_Cstm);
+            this.panel16.Controls.Add(this.PNL_Ham_Cstm);
+            this.panel16.Controls.Add(this.PNL_Sausage_Cstm);
+            this.panel16.Controls.Add(this.PNL_Pepperoni_Cstm);
+            this.panel16.Controls.Add(this.BTN_Cstm_Order);
+            this.panel16.Controls.Add(this.BTN_Cstm_Clear);
             this.panel16.Controls.Add(this.label24);
-            this.panel16.Location = new System.Drawing.Point(-31, 176);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel16.Location = new System.Drawing.Point(0, 155);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(532, 748);
+            this.panel16.Size = new System.Drawing.Size(545, 1003);
             this.panel16.TabIndex = 3;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(360, 698);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 45);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Order Now";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(182, 698);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(172, 45);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Clear All";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.checkBox49);
-            this.panel19.Controls.Add(this.checkBox50);
-            this.panel19.Controls.Add(this.checkBox51);
-            this.panel19.Controls.Add(this.checkBox52);
-            this.panel19.Controls.Add(this.checkBox53);
-            this.panel19.Controls.Add(this.checkBox54);
-            this.panel19.Controls.Add(this.checkBox55);
-            this.panel19.Controls.Add(this.checkBox56);
-            this.panel19.Controls.Add(this.checkBox57);
-            this.panel19.Controls.Add(this.checkBox58);
-            this.panel19.Controls.Add(this.checkBox59);
-            this.panel19.Controls.Add(this.checkBox60);
-            this.panel19.Controls.Add(this.checkBox61);
-            this.panel19.Controls.Add(this.checkBox62);
-            this.panel19.Controls.Add(this.checkBox63);
-            this.panel19.Controls.Add(this.checkBox64);
-            this.panel19.Controls.Add(this.checkBox65);
-            this.panel19.Controls.Add(this.checkBox66);
-            this.panel19.Controls.Add(this.checkBox67);
-            this.panel19.Controls.Add(this.checkBox68);
-            this.panel19.Controls.Add(this.checkBox69);
-            this.panel19.Controls.Add(this.checkBox70);
-            this.panel19.Controls.Add(this.checkBox71);
-            this.panel19.Controls.Add(this.checkBox72);
-            this.panel19.Controls.Add(this.label39);
-            this.panel19.Location = new System.Drawing.Point(360, 25);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(169, 667);
-            this.panel19.TabIndex = 3;
-            // 
-            // checkBox49
-            // 
-            this.checkBox49.AutoSize = true;
-            this.checkBox49.Enabled = false;
-            this.checkBox49.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox49.Location = new System.Drawing.Point(64, 634);
-            this.checkBox49.Name = "checkBox49";
-            this.checkBox49.Size = new System.Drawing.Size(54, 20);
-            this.checkBox49.TabIndex = 48;
-            this.checkBox49.Text = "Extra";
-            this.checkBox49.UseVisualStyleBackColor = true;
-            // 
-            // checkBox50
-            // 
-            this.checkBox50.AutoSize = true;
-            this.checkBox50.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox50.Location = new System.Drawing.Point(16, 607);
-            this.checkBox50.Name = "checkBox50";
-            this.checkBox50.Size = new System.Drawing.Size(90, 21);
-            this.checkBox50.TabIndex = 47;
-            this.checkBox50.Text = "Tomatoes";
-            this.checkBox50.UseVisualStyleBackColor = true;
-            // 
-            // checkBox51
-            // 
-            this.checkBox51.AutoSize = true;
-            this.checkBox51.Enabled = false;
-            this.checkBox51.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox51.Location = new System.Drawing.Point(64, 581);
-            this.checkBox51.Name = "checkBox51";
-            this.checkBox51.Size = new System.Drawing.Size(54, 20);
-            this.checkBox51.TabIndex = 46;
-            this.checkBox51.Text = "Extra";
-            this.checkBox51.UseVisualStyleBackColor = true;
-            // 
-            // checkBox52
-            // 
-            this.checkBox52.AutoSize = true;
-            this.checkBox52.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox52.Location = new System.Drawing.Point(16, 554);
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(88, 21);
-            this.checkBox52.TabIndex = 45;
-            this.checkBox52.Text = "Jalapeno";
-            this.checkBox52.UseVisualStyleBackColor = true;
-            // 
-            // checkBox53
-            // 
-            this.checkBox53.AutoSize = true;
-            this.checkBox53.Enabled = false;
-            this.checkBox53.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox53.Location = new System.Drawing.Point(64, 528);
-            this.checkBox53.Name = "checkBox53";
-            this.checkBox53.Size = new System.Drawing.Size(54, 20);
-            this.checkBox53.TabIndex = 44;
-            this.checkBox53.Text = "Extra";
-            this.checkBox53.UseVisualStyleBackColor = true;
-            // 
-            // checkBox54
-            // 
-            this.checkBox54.AutoSize = true;
-            this.checkBox54.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox54.Location = new System.Drawing.Point(16, 501);
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(92, 21);
-            this.checkBox54.TabIndex = 43;
-            this.checkBox54.Text = "Pineapple";
-            this.checkBox54.UseVisualStyleBackColor = true;
-            // 
-            // checkBox55
-            // 
-            this.checkBox55.AutoSize = true;
-            this.checkBox55.Enabled = false;
-            this.checkBox55.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox55.Location = new System.Drawing.Point(64, 475);
-            this.checkBox55.Name = "checkBox55";
-            this.checkBox55.Size = new System.Drawing.Size(54, 20);
-            this.checkBox55.TabIndex = 42;
-            this.checkBox55.Text = "Extra";
-            this.checkBox55.UseVisualStyleBackColor = true;
-            // 
-            // checkBox56
-            // 
-            this.checkBox56.AutoSize = true;
-            this.checkBox56.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox56.Location = new System.Drawing.Point(16, 448);
-            this.checkBox56.Name = "checkBox56";
-            this.checkBox56.Size = new System.Drawing.Size(132, 21);
-            this.checkBox56.TabIndex = 41;
-            this.checkBox56.Text = "Banana Peppers";
-            this.checkBox56.UseVisualStyleBackColor = true;
-            // 
-            // checkBox57
-            // 
-            this.checkBox57.AutoSize = true;
-            this.checkBox57.Enabled = false;
-            this.checkBox57.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox57.Location = new System.Drawing.Point(64, 422);
-            this.checkBox57.Name = "checkBox57";
-            this.checkBox57.Size = new System.Drawing.Size(54, 20);
-            this.checkBox57.TabIndex = 40;
-            this.checkBox57.Text = "Extra";
-            this.checkBox57.UseVisualStyleBackColor = true;
-            // 
-            // checkBox58
-            // 
-            this.checkBox58.AutoSize = true;
-            this.checkBox58.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox58.Location = new System.Drawing.Point(16, 395);
-            this.checkBox58.Name = "checkBox58";
-            this.checkBox58.Size = new System.Drawing.Size(103, 21);
-            this.checkBox58.TabIndex = 39;
-            this.checkBox58.Text = "Bell Peppers";
-            this.checkBox58.UseVisualStyleBackColor = true;
-            // 
-            // checkBox59
-            // 
-            this.checkBox59.AutoSize = true;
-            this.checkBox59.Enabled = false;
-            this.checkBox59.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox59.Location = new System.Drawing.Point(64, 369);
-            this.checkBox59.Name = "checkBox59";
-            this.checkBox59.Size = new System.Drawing.Size(54, 20);
-            this.checkBox59.TabIndex = 38;
-            this.checkBox59.Text = "Extra";
-            this.checkBox59.UseVisualStyleBackColor = true;
-            // 
-            // checkBox60
-            // 
-            this.checkBox60.AutoSize = true;
-            this.checkBox60.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox60.Location = new System.Drawing.Point(16, 342);
-            this.checkBox60.Name = "checkBox60";
-            this.checkBox60.Size = new System.Drawing.Size(103, 21);
-            this.checkBox60.TabIndex = 37;
-            this.checkBox60.Text = "Black Olives";
-            this.checkBox60.UseVisualStyleBackColor = true;
-            // 
-            // checkBox61
-            // 
-            this.checkBox61.AutoSize = true;
-            this.checkBox61.Enabled = false;
-            this.checkBox61.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox61.Location = new System.Drawing.Point(64, 316);
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(54, 20);
-            this.checkBox61.TabIndex = 36;
-            this.checkBox61.Text = "Extra";
-            this.checkBox61.UseVisualStyleBackColor = true;
-            // 
-            // checkBox62
-            // 
-            this.checkBox62.AutoSize = true;
-            this.checkBox62.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox62.Location = new System.Drawing.Point(16, 289);
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(71, 21);
-            this.checkBox62.TabIndex = 35;
-            this.checkBox62.Text = "Onions";
-            this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // checkBox63
-            // 
-            this.checkBox63.AutoSize = true;
-            this.checkBox63.Enabled = false;
-            this.checkBox63.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox63.Location = new System.Drawing.Point(64, 263);
-            this.checkBox63.Name = "checkBox63";
-            this.checkBox63.Size = new System.Drawing.Size(54, 20);
-            this.checkBox63.TabIndex = 34;
-            this.checkBox63.Text = "Extra";
-            this.checkBox63.UseVisualStyleBackColor = true;
-            // 
-            // checkBox64
-            // 
-            this.checkBox64.AutoSize = true;
-            this.checkBox64.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox64.Location = new System.Drawing.Point(16, 236);
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(99, 21);
-            this.checkBox64.TabIndex = 33;
-            this.checkBox64.Text = "Mushrooms";
-            this.checkBox64.UseVisualStyleBackColor = true;
-            // 
-            // checkBox65
-            // 
-            this.checkBox65.AutoSize = true;
-            this.checkBox65.Enabled = false;
-            this.checkBox65.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox65.Location = new System.Drawing.Point(64, 210);
-            this.checkBox65.Name = "checkBox65";
-            this.checkBox65.Size = new System.Drawing.Size(54, 20);
-            this.checkBox65.TabIndex = 32;
-            this.checkBox65.Text = "Extra";
-            this.checkBox65.UseVisualStyleBackColor = true;
-            // 
-            // checkBox66
-            // 
-            this.checkBox66.AutoSize = true;
-            this.checkBox66.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox66.Location = new System.Drawing.Point(16, 183);
-            this.checkBox66.Name = "checkBox66";
-            this.checkBox66.Size = new System.Drawing.Size(68, 21);
-            this.checkBox66.TabIndex = 31;
-            this.checkBox66.Text = "Bacon";
-            this.checkBox66.UseVisualStyleBackColor = true;
-            // 
-            // checkBox67
-            // 
-            this.checkBox67.AutoSize = true;
-            this.checkBox67.Enabled = false;
-            this.checkBox67.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox67.Location = new System.Drawing.Point(64, 157);
-            this.checkBox67.Name = "checkBox67";
-            this.checkBox67.Size = new System.Drawing.Size(54, 20);
-            this.checkBox67.TabIndex = 30;
-            this.checkBox67.Text = "Extra";
-            this.checkBox67.UseVisualStyleBackColor = true;
-            // 
-            // checkBox68
-            // 
-            this.checkBox68.AutoSize = true;
-            this.checkBox68.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox68.Location = new System.Drawing.Point(16, 130);
-            this.checkBox68.Name = "checkBox68";
-            this.checkBox68.Size = new System.Drawing.Size(58, 21);
-            this.checkBox68.TabIndex = 29;
-            this.checkBox68.Text = "Ham";
-            this.checkBox68.UseVisualStyleBackColor = true;
-            // 
-            // checkBox69
-            // 
-            this.checkBox69.AutoSize = true;
-            this.checkBox69.Enabled = false;
-            this.checkBox69.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox69.Location = new System.Drawing.Point(64, 104);
-            this.checkBox69.Name = "checkBox69";
-            this.checkBox69.Size = new System.Drawing.Size(54, 20);
-            this.checkBox69.TabIndex = 28;
-            this.checkBox69.Text = "Extra";
-            this.checkBox69.UseVisualStyleBackColor = true;
-            // 
-            // checkBox70
-            // 
-            this.checkBox70.AutoSize = true;
-            this.checkBox70.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox70.Location = new System.Drawing.Point(16, 77);
-            this.checkBox70.Name = "checkBox70";
-            this.checkBox70.Size = new System.Drawing.Size(125, 21);
-            this.checkBox70.TabIndex = 27;
-            this.checkBox70.Text = "Italian Sausage";
-            this.checkBox70.UseVisualStyleBackColor = true;
-            // 
-            // checkBox71
-            // 
-            this.checkBox71.AutoSize = true;
-            this.checkBox71.Enabled = false;
-            this.checkBox71.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox71.Location = new System.Drawing.Point(64, 51);
-            this.checkBox71.Name = "checkBox71";
-            this.checkBox71.Size = new System.Drawing.Size(54, 20);
-            this.checkBox71.TabIndex = 26;
-            this.checkBox71.Text = "Extra";
-            this.checkBox71.UseVisualStyleBackColor = true;
-            // 
-            // checkBox72
-            // 
-            this.checkBox72.AutoSize = true;
-            this.checkBox72.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox72.Location = new System.Drawing.Point(16, 24);
-            this.checkBox72.Name = "checkBox72";
-            this.checkBox72.Size = new System.Drawing.Size(93, 21);
-            this.checkBox72.TabIndex = 25;
-            this.checkBox72.Text = "Pepperoni";
-            this.checkBox72.UseVisualStyleBackColor = true;
-            // 
-            // label39
-            // 
-            this.label39.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(0, 0);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(169, 21);
-            this.label39.TabIndex = 1;
-            this.label39.Text = "Right Side";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel18
-            // 
-            this.panel18.Controls.Add(this.checkBox25);
-            this.panel18.Controls.Add(this.checkBox26);
-            this.panel18.Controls.Add(this.checkBox27);
-            this.panel18.Controls.Add(this.checkBox28);
-            this.panel18.Controls.Add(this.checkBox29);
-            this.panel18.Controls.Add(this.checkBox30);
-            this.panel18.Controls.Add(this.checkBox31);
-            this.panel18.Controls.Add(this.checkBox32);
-            this.panel18.Controls.Add(this.checkBox33);
-            this.panel18.Controls.Add(this.checkBox34);
-            this.panel18.Controls.Add(this.checkBox35);
-            this.panel18.Controls.Add(this.checkBox36);
-            this.panel18.Controls.Add(this.checkBox37);
-            this.panel18.Controls.Add(this.checkBox38);
-            this.panel18.Controls.Add(this.checkBox39);
-            this.panel18.Controls.Add(this.checkBox40);
-            this.panel18.Controls.Add(this.checkBox41);
-            this.panel18.Controls.Add(this.checkBox42);
-            this.panel18.Controls.Add(this.checkBox43);
-            this.panel18.Controls.Add(this.checkBox44);
-            this.panel18.Controls.Add(this.checkBox45);
-            this.panel18.Controls.Add(this.checkBox46);
-            this.panel18.Controls.Add(this.checkBox47);
-            this.panel18.Controls.Add(this.checkBox48);
-            this.panel18.Controls.Add(this.label33);
-            this.panel18.Location = new System.Drawing.Point(182, 25);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(172, 667);
-            this.panel18.TabIndex = 3;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Enabled = false;
-            this.checkBox25.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox25.Location = new System.Drawing.Point(63, 634);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(54, 20);
-            this.checkBox25.TabIndex = 48;
-            this.checkBox25.Text = "Extra";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox26.Location = new System.Drawing.Point(15, 607);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(90, 21);
-            this.checkBox26.TabIndex = 47;
-            this.checkBox26.Text = "Tomatoes";
-            this.checkBox26.UseVisualStyleBackColor = true;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Enabled = false;
-            this.checkBox27.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox27.Location = new System.Drawing.Point(63, 581);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(54, 20);
-            this.checkBox27.TabIndex = 46;
-            this.checkBox27.Text = "Extra";
-            this.checkBox27.UseVisualStyleBackColor = true;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox28.Location = new System.Drawing.Point(15, 554);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(88, 21);
-            this.checkBox28.TabIndex = 45;
-            this.checkBox28.Text = "Jalapeno";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Enabled = false;
-            this.checkBox29.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox29.Location = new System.Drawing.Point(63, 528);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(54, 20);
-            this.checkBox29.TabIndex = 44;
-            this.checkBox29.Text = "Extra";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox30.Location = new System.Drawing.Point(15, 501);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(92, 21);
-            this.checkBox30.TabIndex = 43;
-            this.checkBox30.Text = "Pineapple";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // checkBox31
-            // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Enabled = false;
-            this.checkBox31.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox31.Location = new System.Drawing.Point(63, 475);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(54, 20);
-            this.checkBox31.TabIndex = 42;
-            this.checkBox31.Text = "Extra";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // checkBox32
-            // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox32.Location = new System.Drawing.Point(15, 448);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(132, 21);
-            this.checkBox32.TabIndex = 41;
-            this.checkBox32.Text = "Banana Peppers";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // checkBox33
-            // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.Enabled = false;
-            this.checkBox33.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox33.Location = new System.Drawing.Point(63, 422);
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(54, 20);
-            this.checkBox33.TabIndex = 40;
-            this.checkBox33.Text = "Extra";
-            this.checkBox33.UseVisualStyleBackColor = true;
-            // 
-            // checkBox34
-            // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox34.Location = new System.Drawing.Point(15, 395);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(103, 21);
-            this.checkBox34.TabIndex = 39;
-            this.checkBox34.Text = "Bell Peppers";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            // 
-            // checkBox35
-            // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Enabled = false;
-            this.checkBox35.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox35.Location = new System.Drawing.Point(63, 369);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(54, 20);
-            this.checkBox35.TabIndex = 38;
-            this.checkBox35.Text = "Extra";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // checkBox36
-            // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox36.Location = new System.Drawing.Point(15, 342);
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(103, 21);
-            this.checkBox36.TabIndex = 37;
-            this.checkBox36.Text = "Black Olives";
-            this.checkBox36.UseVisualStyleBackColor = true;
-            // 
-            // checkBox37
-            // 
-            this.checkBox37.AutoSize = true;
-            this.checkBox37.Enabled = false;
-            this.checkBox37.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox37.Location = new System.Drawing.Point(63, 316);
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(54, 20);
-            this.checkBox37.TabIndex = 36;
-            this.checkBox37.Text = "Extra";
-            this.checkBox37.UseVisualStyleBackColor = true;
-            // 
-            // checkBox38
-            // 
-            this.checkBox38.AutoSize = true;
-            this.checkBox38.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox38.Location = new System.Drawing.Point(15, 289);
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(71, 21);
-            this.checkBox38.TabIndex = 35;
-            this.checkBox38.Text = "Onions";
-            this.checkBox38.UseVisualStyleBackColor = true;
-            // 
-            // checkBox39
-            // 
-            this.checkBox39.AutoSize = true;
-            this.checkBox39.Enabled = false;
-            this.checkBox39.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox39.Location = new System.Drawing.Point(63, 263);
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Size = new System.Drawing.Size(54, 20);
-            this.checkBox39.TabIndex = 34;
-            this.checkBox39.Text = "Extra";
-            this.checkBox39.UseVisualStyleBackColor = true;
-            // 
-            // checkBox40
-            // 
-            this.checkBox40.AutoSize = true;
-            this.checkBox40.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox40.Location = new System.Drawing.Point(15, 236);
-            this.checkBox40.Name = "checkBox40";
-            this.checkBox40.Size = new System.Drawing.Size(99, 21);
-            this.checkBox40.TabIndex = 33;
-            this.checkBox40.Text = "Mushrooms";
-            this.checkBox40.UseVisualStyleBackColor = true;
-            // 
-            // checkBox41
-            // 
-            this.checkBox41.AutoSize = true;
-            this.checkBox41.Enabled = false;
-            this.checkBox41.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox41.Location = new System.Drawing.Point(63, 210);
-            this.checkBox41.Name = "checkBox41";
-            this.checkBox41.Size = new System.Drawing.Size(54, 20);
-            this.checkBox41.TabIndex = 32;
-            this.checkBox41.Text = "Extra";
-            this.checkBox41.UseVisualStyleBackColor = true;
-            // 
-            // checkBox42
-            // 
-            this.checkBox42.AutoSize = true;
-            this.checkBox42.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox42.Location = new System.Drawing.Point(15, 183);
-            this.checkBox42.Name = "checkBox42";
-            this.checkBox42.Size = new System.Drawing.Size(68, 21);
-            this.checkBox42.TabIndex = 31;
-            this.checkBox42.Text = "Bacon";
-            this.checkBox42.UseVisualStyleBackColor = true;
-            // 
-            // checkBox43
-            // 
-            this.checkBox43.AutoSize = true;
-            this.checkBox43.Enabled = false;
-            this.checkBox43.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox43.Location = new System.Drawing.Point(63, 157);
-            this.checkBox43.Name = "checkBox43";
-            this.checkBox43.Size = new System.Drawing.Size(54, 20);
-            this.checkBox43.TabIndex = 30;
-            this.checkBox43.Text = "Extra";
-            this.checkBox43.UseVisualStyleBackColor = true;
-            // 
-            // checkBox44
-            // 
-            this.checkBox44.AutoSize = true;
-            this.checkBox44.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox44.Location = new System.Drawing.Point(15, 130);
-            this.checkBox44.Name = "checkBox44";
-            this.checkBox44.Size = new System.Drawing.Size(58, 21);
-            this.checkBox44.TabIndex = 29;
-            this.checkBox44.Text = "Ham";
-            this.checkBox44.UseVisualStyleBackColor = true;
-            // 
-            // checkBox45
-            // 
-            this.checkBox45.AutoSize = true;
-            this.checkBox45.Enabled = false;
-            this.checkBox45.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox45.Location = new System.Drawing.Point(63, 104);
-            this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Size = new System.Drawing.Size(54, 20);
-            this.checkBox45.TabIndex = 28;
-            this.checkBox45.Text = "Extra";
-            this.checkBox45.UseVisualStyleBackColor = true;
-            // 
-            // checkBox46
-            // 
-            this.checkBox46.AutoSize = true;
-            this.checkBox46.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox46.Location = new System.Drawing.Point(15, 77);
-            this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(125, 21);
-            this.checkBox46.TabIndex = 27;
-            this.checkBox46.Text = "Italian Sausage";
-            this.checkBox46.UseVisualStyleBackColor = true;
-            // 
-            // checkBox47
-            // 
-            this.checkBox47.AutoSize = true;
-            this.checkBox47.Enabled = false;
-            this.checkBox47.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox47.Location = new System.Drawing.Point(63, 51);
-            this.checkBox47.Name = "checkBox47";
-            this.checkBox47.Size = new System.Drawing.Size(54, 20);
-            this.checkBox47.TabIndex = 26;
-            this.checkBox47.Tag = "L_Pepperoni_extra";
-            this.checkBox47.Text = "Extra";
-            this.checkBox47.UseVisualStyleBackColor = true;
-            // 
-            // checkBox48
-            // 
-            this.checkBox48.AutoSize = true;
-            this.checkBox48.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox48.Location = new System.Drawing.Point(15, 24);
-            this.checkBox48.Name = "checkBox48";
-            this.checkBox48.Size = new System.Drawing.Size(93, 21);
-            this.checkBox48.TabIndex = 25;
-            this.checkBox48.Tag = "L_Pepperoni";
-            this.checkBox48.Text = "Pepperoni";
-            this.checkBox48.UseVisualStyleBackColor = true;
-            // 
-            // label33
-            // 
-            this.label33.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(0, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(172, 21);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Left Side";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.checkBox24);
-            this.panel17.Controls.Add(this.checkBox23);
-            this.panel17.Controls.Add(this.checkBox22);
-            this.panel17.Controls.Add(this.checkBox21);
-            this.panel17.Controls.Add(this.checkBox20);
-            this.panel17.Controls.Add(this.checkBox19);
-            this.panel17.Controls.Add(this.checkBox18);
-            this.panel17.Controls.Add(this.checkBox17);
-            this.panel17.Controls.Add(this.checkBox16);
-            this.panel17.Controls.Add(this.checkBox15);
-            this.panel17.Controls.Add(this.checkBox14);
-            this.panel17.Controls.Add(this.checkBox13);
-            this.panel17.Controls.Add(this.checkBox12);
-            this.panel17.Controls.Add(this.checkBox11);
-            this.panel17.Controls.Add(this.checkBox10);
-            this.panel17.Controls.Add(this.checkBox9);
-            this.panel17.Controls.Add(this.checkBox8);
-            this.panel17.Controls.Add(this.checkBox7);
-            this.panel17.Controls.Add(this.checkBox6);
-            this.panel17.Controls.Add(this.checkBox5);
-            this.panel17.Controls.Add(this.checkBox3);
-            this.panel17.Controls.Add(this.checkBox2);
-            this.panel17.Controls.Add(this.checkBox4);
-            this.panel17.Controls.Add(this.checkBox1);
-            this.panel17.Controls.Add(this.label32);
-            this.panel17.Location = new System.Drawing.Point(4, 25);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(172, 667);
-            this.panel17.TabIndex = 2;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Enabled = false;
-            this.checkBox24.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(63, 634);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(54, 20);
-            this.checkBox24.TabIndex = 24;
-            this.checkBox24.Text = "Extra";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(15, 607);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(90, 21);
-            this.checkBox23.TabIndex = 23;
-            this.checkBox23.Text = "Tomatoes";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Enabled = false;
-            this.checkBox22.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(63, 581);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(54, 20);
-            this.checkBox22.TabIndex = 22;
-            this.checkBox22.Text = "Extra";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(15, 554);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(88, 21);
-            this.checkBox21.TabIndex = 21;
-            this.checkBox21.Text = "Jalapeno";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Enabled = false;
-            this.checkBox20.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(63, 528);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(54, 20);
-            this.checkBox20.TabIndex = 20;
-            this.checkBox20.Text = "Extra";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(15, 501);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(92, 21);
-            this.checkBox19.TabIndex = 19;
-            this.checkBox19.Text = "Pineapple";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Enabled = false;
-            this.checkBox18.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(63, 475);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(54, 20);
-            this.checkBox18.TabIndex = 18;
-            this.checkBox18.Text = "Extra";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(15, 448);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(132, 21);
-            this.checkBox17.TabIndex = 17;
-            this.checkBox17.Text = "Banana Peppers";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Enabled = false;
-            this.checkBox16.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(63, 422);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(54, 20);
-            this.checkBox16.TabIndex = 16;
-            this.checkBox16.Text = "Extra";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(15, 395);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(103, 21);
-            this.checkBox15.TabIndex = 15;
-            this.checkBox15.Text = "Bell Peppers";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Enabled = false;
-            this.checkBox14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(63, 369);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(54, 20);
-            this.checkBox14.TabIndex = 14;
-            this.checkBox14.Text = "Extra";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(15, 342);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(103, 21);
-            this.checkBox13.TabIndex = 13;
-            this.checkBox13.Text = "Black Olives";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Enabled = false;
-            this.checkBox12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(63, 316);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(54, 20);
-            this.checkBox12.TabIndex = 12;
-            this.checkBox12.Text = "Extra";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(15, 289);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(71, 21);
-            this.checkBox11.TabIndex = 11;
-            this.checkBox11.Text = "Onions";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Enabled = false;
-            this.checkBox10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(63, 263);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(54, 20);
-            this.checkBox10.TabIndex = 10;
-            this.checkBox10.Text = "Extra";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(15, 236);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(99, 21);
-            this.checkBox9.TabIndex = 9;
-            this.checkBox9.Text = "Mushrooms";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Enabled = false;
-            this.checkBox8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(63, 210);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(54, 20);
-            this.checkBox8.TabIndex = 8;
-            this.checkBox8.Text = "Extra";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(15, 183);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(68, 21);
-            this.checkBox7.TabIndex = 7;
-            this.checkBox7.Text = "Bacon";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Enabled = false;
-            this.checkBox6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(63, 157);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(54, 20);
-            this.checkBox6.TabIndex = 6;
-            this.checkBox6.Text = "Extra";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(15, 130);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(58, 21);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = "Ham";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Enabled = false;
-            this.checkBox3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(63, 104);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(54, 20);
-            this.checkBox3.TabIndex = 4;
-            this.checkBox3.Text = "Extra";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(15, 77);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(125, 21);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "Italian Sausage";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Enabled = false;
-            this.checkBox4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(63, 51);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(54, 20);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.Tag = "B_Pepperoni_extra";
-            this.checkBox4.Text = "Extra";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(15, 24);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(93, 21);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Tag = "B_Pepperoni";
-            this.checkBox1.Text = "Pepperoni";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label32
-            // 
-            this.label32.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(0, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(172, 21);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "Both Sides";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // PNL_Tomatoes_Cstm
+            // 
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.RB_Cstm_Tomatoes_Extra);
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.PB_Cstm_Tomatoes_Whole);
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.PB_Cstm_Tomatoes_R);
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.PB_Cstm_Tomatoes_L);
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.RB_Cstm_Tomatoes_Reg);
+            this.PNL_Tomatoes_Cstm.Controls.Add(this.CB_Cstm_Tomatoes);
+            this.PNL_Tomatoes_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Tomatoes_Cstm.Location = new System.Drawing.Point(0, 868);
+            this.PNL_Tomatoes_Cstm.Name = "PNL_Tomatoes_Cstm";
+            this.PNL_Tomatoes_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Tomatoes_Cstm.TabIndex = 17;
+            // 
+            // RB_Cstm_Tomatoes_Extra
+            // 
+            this.RB_Cstm_Tomatoes_Extra.AutoSize = true;
+            this.RB_Cstm_Tomatoes_Extra.Enabled = false;
+            this.RB_Cstm_Tomatoes_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Tomatoes_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Tomatoes_Extra.Name = "RB_Cstm_Tomatoes_Extra";
+            this.RB_Cstm_Tomatoes_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Tomatoes_Extra.TabIndex = 5;
+            this.RB_Cstm_Tomatoes_Extra.Text = "Extra";
+            this.RB_Cstm_Tomatoes_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Tomatoes_Whole
+            // 
+            this.PB_Cstm_Tomatoes_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Tomatoes_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Tomatoes_Whole.Name = "PB_Cstm_Tomatoes_Whole";
+            this.PB_Cstm_Tomatoes_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Tomatoes_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Tomatoes_Whole.TabIndex = 4;
+            this.PB_Cstm_Tomatoes_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Tomatoes_R
+            // 
+            this.PB_Cstm_Tomatoes_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Tomatoes_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Tomatoes_R.Name = "PB_Cstm_Tomatoes_R";
+            this.PB_Cstm_Tomatoes_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Tomatoes_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Tomatoes_R.TabIndex = 3;
+            this.PB_Cstm_Tomatoes_R.TabStop = false;
+            // 
+            // PB_Cstm_Tomatoes_L
+            // 
+            this.PB_Cstm_Tomatoes_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Tomatoes_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Tomatoes_L.Name = "PB_Cstm_Tomatoes_L";
+            this.PB_Cstm_Tomatoes_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Tomatoes_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Tomatoes_L.TabIndex = 2;
+            this.PB_Cstm_Tomatoes_L.TabStop = false;
+            // 
+            // RB_Cstm_Tomatoes_Reg
+            // 
+            this.RB_Cstm_Tomatoes_Reg.AutoSize = true;
+            this.RB_Cstm_Tomatoes_Reg.Checked = true;
+            this.RB_Cstm_Tomatoes_Reg.Enabled = false;
+            this.RB_Cstm_Tomatoes_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Tomatoes_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Tomatoes_Reg.Name = "RB_Cstm_Tomatoes_Reg";
+            this.RB_Cstm_Tomatoes_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Tomatoes_Reg.TabIndex = 1;
+            this.RB_Cstm_Tomatoes_Reg.TabStop = true;
+            this.RB_Cstm_Tomatoes_Reg.Text = "Regular";
+            this.RB_Cstm_Tomatoes_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Tomatoes
+            // 
+            this.CB_Cstm_Tomatoes.AutoSize = true;
+            this.CB_Cstm_Tomatoes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Tomatoes.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Tomatoes.Name = "CB_Cstm_Tomatoes";
+            this.CB_Cstm_Tomatoes.Size = new System.Drawing.Size(88, 20);
+            this.CB_Cstm_Tomatoes.TabIndex = 0;
+            this.CB_Cstm_Tomatoes.Text = "Tomatoes";
+            this.CB_Cstm_Tomatoes.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Jalapenos_Cstm
+            // 
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.RB_Cstm_Jalapeno_Extra);
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.PB_Cstm_Jalapeno_Whole);
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.PB_Cstm_Jalapeno_R);
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.PB_Cstm_Jalapeno_L);
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.RB_Cstm_Jalapeno_Reg);
+            this.PNL_Jalapenos_Cstm.Controls.Add(this.CB_Cstm_Jalapeno);
+            this.PNL_Jalapenos_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Jalapenos_Cstm.Location = new System.Drawing.Point(0, 791);
+            this.PNL_Jalapenos_Cstm.Name = "PNL_Jalapenos_Cstm";
+            this.PNL_Jalapenos_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Jalapenos_Cstm.TabIndex = 16;
+            // 
+            // RB_Cstm_Jalapeno_Extra
+            // 
+            this.RB_Cstm_Jalapeno_Extra.AutoSize = true;
+            this.RB_Cstm_Jalapeno_Extra.Enabled = false;
+            this.RB_Cstm_Jalapeno_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Jalapeno_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Jalapeno_Extra.Name = "RB_Cstm_Jalapeno_Extra";
+            this.RB_Cstm_Jalapeno_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Jalapeno_Extra.TabIndex = 5;
+            this.RB_Cstm_Jalapeno_Extra.Text = "Extra";
+            this.RB_Cstm_Jalapeno_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Jalapeno_Whole
+            // 
+            this.PB_Cstm_Jalapeno_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Jalapeno_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Jalapeno_Whole.Name = "PB_Cstm_Jalapeno_Whole";
+            this.PB_Cstm_Jalapeno_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Jalapeno_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Jalapeno_Whole.TabIndex = 4;
+            this.PB_Cstm_Jalapeno_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Jalapeno_R
+            // 
+            this.PB_Cstm_Jalapeno_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Jalapeno_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Jalapeno_R.Name = "PB_Cstm_Jalapeno_R";
+            this.PB_Cstm_Jalapeno_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Jalapeno_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Jalapeno_R.TabIndex = 3;
+            this.PB_Cstm_Jalapeno_R.TabStop = false;
+            // 
+            // PB_Cstm_Jalapeno_L
+            // 
+            this.PB_Cstm_Jalapeno_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Jalapeno_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Jalapeno_L.Name = "PB_Cstm_Jalapeno_L";
+            this.PB_Cstm_Jalapeno_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Jalapeno_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Jalapeno_L.TabIndex = 2;
+            this.PB_Cstm_Jalapeno_L.TabStop = false;
+            // 
+            // RB_Cstm_Jalapeno_Reg
+            // 
+            this.RB_Cstm_Jalapeno_Reg.AutoSize = true;
+            this.RB_Cstm_Jalapeno_Reg.Checked = true;
+            this.RB_Cstm_Jalapeno_Reg.Enabled = false;
+            this.RB_Cstm_Jalapeno_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Jalapeno_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Jalapeno_Reg.Name = "RB_Cstm_Jalapeno_Reg";
+            this.RB_Cstm_Jalapeno_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Jalapeno_Reg.TabIndex = 1;
+            this.RB_Cstm_Jalapeno_Reg.TabStop = true;
+            this.RB_Cstm_Jalapeno_Reg.Text = "Regular";
+            this.RB_Cstm_Jalapeno_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Jalapeno
+            // 
+            this.CB_Cstm_Jalapeno.AutoSize = true;
+            this.CB_Cstm_Jalapeno.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Jalapeno.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Jalapeno.Name = "CB_Cstm_Jalapeno";
+            this.CB_Cstm_Jalapeno.Size = new System.Drawing.Size(88, 20);
+            this.CB_Cstm_Jalapeno.TabIndex = 0;
+            this.CB_Cstm_Jalapeno.Text = "Jalapeno";
+            this.CB_Cstm_Jalapeno.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Pineapple_Cstm
+            // 
+            this.PNL_Pineapple_Cstm.Controls.Add(this.RB_Cstm_Pineapple_Extra);
+            this.PNL_Pineapple_Cstm.Controls.Add(this.PB_Cstm_Pineapple_Whole);
+            this.PNL_Pineapple_Cstm.Controls.Add(this.PB_Cstm_Pineapple_R);
+            this.PNL_Pineapple_Cstm.Controls.Add(this.PB_Cstm_Pineapple_L);
+            this.PNL_Pineapple_Cstm.Controls.Add(this.RB_Cstm_Pineapple_Reg);
+            this.PNL_Pineapple_Cstm.Controls.Add(this.CB_Cstm_Pineapple);
+            this.PNL_Pineapple_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Pineapple_Cstm.Location = new System.Drawing.Point(0, 714);
+            this.PNL_Pineapple_Cstm.Name = "PNL_Pineapple_Cstm";
+            this.PNL_Pineapple_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Pineapple_Cstm.TabIndex = 15;
+            // 
+            // RB_Cstm_Pineapple_Extra
+            // 
+            this.RB_Cstm_Pineapple_Extra.AutoSize = true;
+            this.RB_Cstm_Pineapple_Extra.Enabled = false;
+            this.RB_Cstm_Pineapple_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Pineapple_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Pineapple_Extra.Name = "RB_Cstm_Pineapple_Extra";
+            this.RB_Cstm_Pineapple_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Pineapple_Extra.TabIndex = 5;
+            this.RB_Cstm_Pineapple_Extra.Text = "Extra";
+            this.RB_Cstm_Pineapple_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Pineapple_Whole
+            // 
+            this.PB_Cstm_Pineapple_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Pineapple_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Pineapple_Whole.Name = "PB_Cstm_Pineapple_Whole";
+            this.PB_Cstm_Pineapple_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pineapple_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pineapple_Whole.TabIndex = 4;
+            this.PB_Cstm_Pineapple_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Pineapple_R
+            // 
+            this.PB_Cstm_Pineapple_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Pineapple_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Pineapple_R.Name = "PB_Cstm_Pineapple_R";
+            this.PB_Cstm_Pineapple_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pineapple_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pineapple_R.TabIndex = 3;
+            this.PB_Cstm_Pineapple_R.TabStop = false;
+            // 
+            // PB_Cstm_Pineapple_L
+            // 
+            this.PB_Cstm_Pineapple_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Pineapple_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Pineapple_L.Name = "PB_Cstm_Pineapple_L";
+            this.PB_Cstm_Pineapple_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pineapple_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pineapple_L.TabIndex = 2;
+            this.PB_Cstm_Pineapple_L.TabStop = false;
+            // 
+            // RB_Cstm_Pineapple_Reg
+            // 
+            this.RB_Cstm_Pineapple_Reg.AutoSize = true;
+            this.RB_Cstm_Pineapple_Reg.Checked = true;
+            this.RB_Cstm_Pineapple_Reg.Enabled = false;
+            this.RB_Cstm_Pineapple_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Pineapple_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Pineapple_Reg.Name = "RB_Cstm_Pineapple_Reg";
+            this.RB_Cstm_Pineapple_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Pineapple_Reg.TabIndex = 1;
+            this.RB_Cstm_Pineapple_Reg.TabStop = true;
+            this.RB_Cstm_Pineapple_Reg.Text = "Regular";
+            this.RB_Cstm_Pineapple_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Pineapple
+            // 
+            this.CB_Cstm_Pineapple.AutoSize = true;
+            this.CB_Cstm_Pineapple.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Pineapple.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Pineapple.Name = "CB_Cstm_Pineapple";
+            this.CB_Cstm_Pineapple.Size = new System.Drawing.Size(93, 20);
+            this.CB_Cstm_Pineapple.TabIndex = 0;
+            this.CB_Cstm_Pineapple.Text = "Pineapple";
+            this.CB_Cstm_Pineapple.UseVisualStyleBackColor = true;
+            // 
+            // PNL_BananaPeppers_Cstm
+            // 
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.RB_Cstm_BananaPeppers_Extra);
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.PB_Cstm_BananaPeppers_Whole);
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.PB_Cstm_BananaPeppers_R);
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.PB_Cstm_BananaPeppers_L);
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.RB_Cstm_BananaPeppers_Reg);
+            this.PNL_BananaPeppers_Cstm.Controls.Add(this.CB_Cstm_BananaPeppers);
+            this.PNL_BananaPeppers_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_BananaPeppers_Cstm.Location = new System.Drawing.Point(0, 637);
+            this.PNL_BananaPeppers_Cstm.Name = "PNL_BananaPeppers_Cstm";
+            this.PNL_BananaPeppers_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_BananaPeppers_Cstm.TabIndex = 14;
+            // 
+            // RB_Cstm_BananaPeppers_Extra
+            // 
+            this.RB_Cstm_BananaPeppers_Extra.AutoSize = true;
+            this.RB_Cstm_BananaPeppers_Extra.Enabled = false;
+            this.RB_Cstm_BananaPeppers_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_BananaPeppers_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_BananaPeppers_Extra.Name = "RB_Cstm_BananaPeppers_Extra";
+            this.RB_Cstm_BananaPeppers_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_BananaPeppers_Extra.TabIndex = 5;
+            this.RB_Cstm_BananaPeppers_Extra.Text = "Extra";
+            this.RB_Cstm_BananaPeppers_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_BananaPeppers_Whole
+            // 
+            this.PB_Cstm_BananaPeppers_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_BananaPeppers_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_BananaPeppers_Whole.Name = "PB_Cstm_BananaPeppers_Whole";
+            this.PB_Cstm_BananaPeppers_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BananaPeppers_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BananaPeppers_Whole.TabIndex = 4;
+            this.PB_Cstm_BananaPeppers_Whole.TabStop = false;
+            // 
+            // PB_Cstm_BananaPeppers_R
+            // 
+            this.PB_Cstm_BananaPeppers_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_BananaPeppers_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_BananaPeppers_R.Name = "PB_Cstm_BananaPeppers_R";
+            this.PB_Cstm_BananaPeppers_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BananaPeppers_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BananaPeppers_R.TabIndex = 3;
+            this.PB_Cstm_BananaPeppers_R.TabStop = false;
+            // 
+            // PB_Cstm_BananaPeppers_L
+            // 
+            this.PB_Cstm_BananaPeppers_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_BananaPeppers_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_BananaPeppers_L.Name = "PB_Cstm_BananaPeppers_L";
+            this.PB_Cstm_BananaPeppers_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BananaPeppers_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BananaPeppers_L.TabIndex = 2;
+            this.PB_Cstm_BananaPeppers_L.TabStop = false;
+            // 
+            // RB_Cstm_BananaPeppers_Reg
+            // 
+            this.RB_Cstm_BananaPeppers_Reg.AutoSize = true;
+            this.RB_Cstm_BananaPeppers_Reg.Checked = true;
+            this.RB_Cstm_BananaPeppers_Reg.Enabled = false;
+            this.RB_Cstm_BananaPeppers_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_BananaPeppers_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_BananaPeppers_Reg.Name = "RB_Cstm_BananaPeppers_Reg";
+            this.RB_Cstm_BananaPeppers_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_BananaPeppers_Reg.TabIndex = 1;
+            this.RB_Cstm_BananaPeppers_Reg.TabStop = true;
+            this.RB_Cstm_BananaPeppers_Reg.Text = "Regular";
+            this.RB_Cstm_BananaPeppers_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_BananaPeppers
+            // 
+            this.CB_Cstm_BananaPeppers.AutoSize = true;
+            this.CB_Cstm_BananaPeppers.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_BananaPeppers.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_BananaPeppers.Name = "CB_Cstm_BananaPeppers";
+            this.CB_Cstm_BananaPeppers.Size = new System.Drawing.Size(134, 20);
+            this.CB_Cstm_BananaPeppers.TabIndex = 0;
+            this.CB_Cstm_BananaPeppers.Text = "Banana Peppers";
+            this.CB_Cstm_BananaPeppers.UseVisualStyleBackColor = true;
+            // 
+            // PNL_BellPeppers_Cstm
+            // 
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.RB_Cstm_BellPeppers_Extra);
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.PB_Cstm_BellPeppers_Whole);
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.PB_Cstm_BellPeppers_R);
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.PB_Cstm_BellPeppers_L);
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.RB_Cstm_BellPeppers_Reg);
+            this.PNL_BellPeppers_Cstm.Controls.Add(this.CB_Cstm_BellPeppers);
+            this.PNL_BellPeppers_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_BellPeppers_Cstm.Location = new System.Drawing.Point(0, 560);
+            this.PNL_BellPeppers_Cstm.Name = "PNL_BellPeppers_Cstm";
+            this.PNL_BellPeppers_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_BellPeppers_Cstm.TabIndex = 13;
+            // 
+            // RB_Cstm_BellPeppers_Extra
+            // 
+            this.RB_Cstm_BellPeppers_Extra.AutoSize = true;
+            this.RB_Cstm_BellPeppers_Extra.Enabled = false;
+            this.RB_Cstm_BellPeppers_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_BellPeppers_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_BellPeppers_Extra.Name = "RB_Cstm_BellPeppers_Extra";
+            this.RB_Cstm_BellPeppers_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_BellPeppers_Extra.TabIndex = 5;
+            this.RB_Cstm_BellPeppers_Extra.Text = "Extra";
+            this.RB_Cstm_BellPeppers_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_BellPeppers_Whole
+            // 
+            this.PB_Cstm_BellPeppers_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_BellPeppers_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_BellPeppers_Whole.Name = "PB_Cstm_BellPeppers_Whole";
+            this.PB_Cstm_BellPeppers_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BellPeppers_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BellPeppers_Whole.TabIndex = 4;
+            this.PB_Cstm_BellPeppers_Whole.TabStop = false;
+            // 
+            // PB_Cstm_BellPeppers_R
+            // 
+            this.PB_Cstm_BellPeppers_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_BellPeppers_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_BellPeppers_R.Name = "PB_Cstm_BellPeppers_R";
+            this.PB_Cstm_BellPeppers_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BellPeppers_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BellPeppers_R.TabIndex = 3;
+            this.PB_Cstm_BellPeppers_R.TabStop = false;
+            // 
+            // PB_Cstm_BellPeppers_L
+            // 
+            this.PB_Cstm_BellPeppers_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_BellPeppers_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_BellPeppers_L.Name = "PB_Cstm_BellPeppers_L";
+            this.PB_Cstm_BellPeppers_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_BellPeppers_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_BellPeppers_L.TabIndex = 2;
+            this.PB_Cstm_BellPeppers_L.TabStop = false;
+            // 
+            // RB_Cstm_BellPeppers_Reg
+            // 
+            this.RB_Cstm_BellPeppers_Reg.AutoSize = true;
+            this.RB_Cstm_BellPeppers_Reg.Checked = true;
+            this.RB_Cstm_BellPeppers_Reg.Enabled = false;
+            this.RB_Cstm_BellPeppers_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_BellPeppers_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_BellPeppers_Reg.Name = "RB_Cstm_BellPeppers_Reg";
+            this.RB_Cstm_BellPeppers_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_BellPeppers_Reg.TabIndex = 1;
+            this.RB_Cstm_BellPeppers_Reg.TabStop = true;
+            this.RB_Cstm_BellPeppers_Reg.Text = "Regular";
+            this.RB_Cstm_BellPeppers_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_BellPeppers
+            // 
+            this.CB_Cstm_BellPeppers.AutoSize = true;
+            this.CB_Cstm_BellPeppers.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_BellPeppers.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_BellPeppers.Name = "CB_Cstm_BellPeppers";
+            this.CB_Cstm_BellPeppers.Size = new System.Drawing.Size(107, 20);
+            this.CB_Cstm_BellPeppers.TabIndex = 0;
+            this.CB_Cstm_BellPeppers.Text = "Bell Peppers";
+            this.CB_Cstm_BellPeppers.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Olives_Cstm
+            // 
+            this.PNL_Olives_Cstm.Controls.Add(this.RB_Cstm_Olives_Extra);
+            this.PNL_Olives_Cstm.Controls.Add(this.PB_Cstm_Olives_Whole);
+            this.PNL_Olives_Cstm.Controls.Add(this.PB_Cstm_Olives_R);
+            this.PNL_Olives_Cstm.Controls.Add(this.PB_Cstm_Olives_L);
+            this.PNL_Olives_Cstm.Controls.Add(this.RB_Cstm_Olives_Reg);
+            this.PNL_Olives_Cstm.Controls.Add(this.CB_Cstm_Olives);
+            this.PNL_Olives_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Olives_Cstm.Location = new System.Drawing.Point(0, 483);
+            this.PNL_Olives_Cstm.Name = "PNL_Olives_Cstm";
+            this.PNL_Olives_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Olives_Cstm.TabIndex = 12;
+            // 
+            // RB_Cstm_Olives_Extra
+            // 
+            this.RB_Cstm_Olives_Extra.AutoSize = true;
+            this.RB_Cstm_Olives_Extra.Enabled = false;
+            this.RB_Cstm_Olives_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Olives_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Olives_Extra.Name = "RB_Cstm_Olives_Extra";
+            this.RB_Cstm_Olives_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Olives_Extra.TabIndex = 5;
+            this.RB_Cstm_Olives_Extra.Text = "Extra";
+            this.RB_Cstm_Olives_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Olives_Whole
+            // 
+            this.PB_Cstm_Olives_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Olives_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Olives_Whole.Name = "PB_Cstm_Olives_Whole";
+            this.PB_Cstm_Olives_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Olives_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Olives_Whole.TabIndex = 4;
+            this.PB_Cstm_Olives_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Olives_R
+            // 
+            this.PB_Cstm_Olives_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Olives_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Olives_R.Name = "PB_Cstm_Olives_R";
+            this.PB_Cstm_Olives_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Olives_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Olives_R.TabIndex = 3;
+            this.PB_Cstm_Olives_R.TabStop = false;
+            // 
+            // PB_Cstm_Olives_L
+            // 
+            this.PB_Cstm_Olives_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Olives_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Olives_L.Name = "PB_Cstm_Olives_L";
+            this.PB_Cstm_Olives_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Olives_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Olives_L.TabIndex = 2;
+            this.PB_Cstm_Olives_L.TabStop = false;
+            // 
+            // RB_Cstm_Olives_Reg
+            // 
+            this.RB_Cstm_Olives_Reg.AutoSize = true;
+            this.RB_Cstm_Olives_Reg.Checked = true;
+            this.RB_Cstm_Olives_Reg.Enabled = false;
+            this.RB_Cstm_Olives_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Olives_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Olives_Reg.Name = "RB_Cstm_Olives_Reg";
+            this.RB_Cstm_Olives_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Olives_Reg.TabIndex = 1;
+            this.RB_Cstm_Olives_Reg.TabStop = true;
+            this.RB_Cstm_Olives_Reg.Text = "Regular";
+            this.RB_Cstm_Olives_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Olives
+            // 
+            this.CB_Cstm_Olives.AutoSize = true;
+            this.CB_Cstm_Olives.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Olives.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Olives.Name = "CB_Cstm_Olives";
+            this.CB_Cstm_Olives.Size = new System.Drawing.Size(67, 20);
+            this.CB_Cstm_Olives.TabIndex = 0;
+            this.CB_Cstm_Olives.Text = "Olives";
+            this.CB_Cstm_Olives.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Onions_Cstm
+            // 
+            this.PNL_Onions_Cstm.Controls.Add(this.RB_Cstm_Onions_Extra);
+            this.PNL_Onions_Cstm.Controls.Add(this.PB_Cstm_Onions_Whole);
+            this.PNL_Onions_Cstm.Controls.Add(this.PB_Cstm_Onions_R);
+            this.PNL_Onions_Cstm.Controls.Add(this.PB_Cstm_Onions_L);
+            this.PNL_Onions_Cstm.Controls.Add(this.RB_Cstm_Onions_Reg);
+            this.PNL_Onions_Cstm.Controls.Add(this.CB_Cstm_Onions);
+            this.PNL_Onions_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Onions_Cstm.Location = new System.Drawing.Point(0, 406);
+            this.PNL_Onions_Cstm.Name = "PNL_Onions_Cstm";
+            this.PNL_Onions_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Onions_Cstm.TabIndex = 11;
+            // 
+            // RB_Cstm_Onions_Extra
+            // 
+            this.RB_Cstm_Onions_Extra.AutoSize = true;
+            this.RB_Cstm_Onions_Extra.Enabled = false;
+            this.RB_Cstm_Onions_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Onions_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Onions_Extra.Name = "RB_Cstm_Onions_Extra";
+            this.RB_Cstm_Onions_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Onions_Extra.TabIndex = 5;
+            this.RB_Cstm_Onions_Extra.Text = "Extra";
+            this.RB_Cstm_Onions_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Onions_Whole
+            // 
+            this.PB_Cstm_Onions_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Onions_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Onions_Whole.Name = "PB_Cstm_Onions_Whole";
+            this.PB_Cstm_Onions_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Onions_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Onions_Whole.TabIndex = 4;
+            this.PB_Cstm_Onions_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Onions_R
+            // 
+            this.PB_Cstm_Onions_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Onions_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Onions_R.Name = "PB_Cstm_Onions_R";
+            this.PB_Cstm_Onions_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Onions_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Onions_R.TabIndex = 3;
+            this.PB_Cstm_Onions_R.TabStop = false;
+            // 
+            // PB_Cstm_Onions_L
+            // 
+            this.PB_Cstm_Onions_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Onions_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Onions_L.Name = "PB_Cstm_Onions_L";
+            this.PB_Cstm_Onions_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Onions_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Onions_L.TabIndex = 2;
+            this.PB_Cstm_Onions_L.TabStop = false;
+            // 
+            // RB_Cstm_Onions_Reg
+            // 
+            this.RB_Cstm_Onions_Reg.AutoSize = true;
+            this.RB_Cstm_Onions_Reg.Checked = true;
+            this.RB_Cstm_Onions_Reg.Enabled = false;
+            this.RB_Cstm_Onions_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Onions_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Onions_Reg.Name = "RB_Cstm_Onions_Reg";
+            this.RB_Cstm_Onions_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Onions_Reg.TabIndex = 1;
+            this.RB_Cstm_Onions_Reg.TabStop = true;
+            this.RB_Cstm_Onions_Reg.Text = "Regular";
+            this.RB_Cstm_Onions_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Onions
+            // 
+            this.CB_Cstm_Onions.AutoSize = true;
+            this.CB_Cstm_Onions.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Onions.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Onions.Name = "CB_Cstm_Onions";
+            this.CB_Cstm_Onions.Size = new System.Drawing.Size(72, 20);
+            this.CB_Cstm_Onions.TabIndex = 0;
+            this.CB_Cstm_Onions.Text = "Onions";
+            this.CB_Cstm_Onions.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Mushrooms_Cstm
+            // 
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.RB_Cstm_Mushrooms_Extra);
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.PB_Cstm_Mushrooms_Whole);
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.PB_Cstm_Mushrooms_R);
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.PB_Cstm_Mushrooms_L);
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.RB_Cstm_Mushrooms_Reg);
+            this.PNL_Mushrooms_Cstm.Controls.Add(this.CB_Cstm_Mushrooms);
+            this.PNL_Mushrooms_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Mushrooms_Cstm.Location = new System.Drawing.Point(0, 329);
+            this.PNL_Mushrooms_Cstm.Name = "PNL_Mushrooms_Cstm";
+            this.PNL_Mushrooms_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Mushrooms_Cstm.TabIndex = 10;
+            // 
+            // RB_Cstm_Mushrooms_Extra
+            // 
+            this.RB_Cstm_Mushrooms_Extra.AutoSize = true;
+            this.RB_Cstm_Mushrooms_Extra.Enabled = false;
+            this.RB_Cstm_Mushrooms_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Mushrooms_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Mushrooms_Extra.Name = "RB_Cstm_Mushrooms_Extra";
+            this.RB_Cstm_Mushrooms_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Mushrooms_Extra.TabIndex = 5;
+            this.RB_Cstm_Mushrooms_Extra.Text = "Extra";
+            this.RB_Cstm_Mushrooms_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Mushrooms_Whole
+            // 
+            this.PB_Cstm_Mushrooms_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Mushrooms_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Mushrooms_Whole.Name = "PB_Cstm_Mushrooms_Whole";
+            this.PB_Cstm_Mushrooms_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Mushrooms_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Mushrooms_Whole.TabIndex = 4;
+            this.PB_Cstm_Mushrooms_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Mushrooms_R
+            // 
+            this.PB_Cstm_Mushrooms_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Mushrooms_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Mushrooms_R.Name = "PB_Cstm_Mushrooms_R";
+            this.PB_Cstm_Mushrooms_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Mushrooms_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Mushrooms_R.TabIndex = 3;
+            this.PB_Cstm_Mushrooms_R.TabStop = false;
+            // 
+            // PB_Cstm_Mushrooms_L
+            // 
+            this.PB_Cstm_Mushrooms_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Mushrooms_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Mushrooms_L.Name = "PB_Cstm_Mushrooms_L";
+            this.PB_Cstm_Mushrooms_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Mushrooms_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Mushrooms_L.TabIndex = 2;
+            this.PB_Cstm_Mushrooms_L.TabStop = false;
+            // 
+            // RB_Cstm_Mushrooms_Reg
+            // 
+            this.RB_Cstm_Mushrooms_Reg.AutoSize = true;
+            this.RB_Cstm_Mushrooms_Reg.Checked = true;
+            this.RB_Cstm_Mushrooms_Reg.Enabled = false;
+            this.RB_Cstm_Mushrooms_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Mushrooms_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Mushrooms_Reg.Name = "RB_Cstm_Mushrooms_Reg";
+            this.RB_Cstm_Mushrooms_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Mushrooms_Reg.TabIndex = 1;
+            this.RB_Cstm_Mushrooms_Reg.TabStop = true;
+            this.RB_Cstm_Mushrooms_Reg.Text = "Regular";
+            this.RB_Cstm_Mushrooms_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Mushrooms
+            // 
+            this.CB_Cstm_Mushrooms.AutoSize = true;
+            this.CB_Cstm_Mushrooms.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Mushrooms.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Mushrooms.Name = "CB_Cstm_Mushrooms";
+            this.CB_Cstm_Mushrooms.Size = new System.Drawing.Size(100, 20);
+            this.CB_Cstm_Mushrooms.TabIndex = 0;
+            this.CB_Cstm_Mushrooms.Text = "Mushrooms";
+            this.CB_Cstm_Mushrooms.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Bacon_Cstm
+            // 
+            this.PNL_Bacon_Cstm.Controls.Add(this.RB_Cstm_Bacon_Extra);
+            this.PNL_Bacon_Cstm.Controls.Add(this.PB_Cstm_Bacon_Whole);
+            this.PNL_Bacon_Cstm.Controls.Add(this.PB_Cstm_Bacon_R);
+            this.PNL_Bacon_Cstm.Controls.Add(this.PB_Cstm_Bacon_L);
+            this.PNL_Bacon_Cstm.Controls.Add(this.RB_Cstm_Bacon_Reg);
+            this.PNL_Bacon_Cstm.Controls.Add(this.CB_Cstm_Bacon);
+            this.PNL_Bacon_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Bacon_Cstm.Location = new System.Drawing.Point(0, 252);
+            this.PNL_Bacon_Cstm.Name = "PNL_Bacon_Cstm";
+            this.PNL_Bacon_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Bacon_Cstm.TabIndex = 9;
+            // 
+            // RB_Cstm_Bacon_Extra
+            // 
+            this.RB_Cstm_Bacon_Extra.AutoSize = true;
+            this.RB_Cstm_Bacon_Extra.Enabled = false;
+            this.RB_Cstm_Bacon_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Bacon_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Bacon_Extra.Name = "RB_Cstm_Bacon_Extra";
+            this.RB_Cstm_Bacon_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Bacon_Extra.TabIndex = 5;
+            this.RB_Cstm_Bacon_Extra.Text = "Extra";
+            this.RB_Cstm_Bacon_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Bacon_Whole
+            // 
+            this.PB_Cstm_Bacon_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Bacon_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Bacon_Whole.Name = "PB_Cstm_Bacon_Whole";
+            this.PB_Cstm_Bacon_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Bacon_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Bacon_Whole.TabIndex = 4;
+            this.PB_Cstm_Bacon_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Bacon_R
+            // 
+            this.PB_Cstm_Bacon_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Bacon_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Bacon_R.Name = "PB_Cstm_Bacon_R";
+            this.PB_Cstm_Bacon_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Bacon_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Bacon_R.TabIndex = 3;
+            this.PB_Cstm_Bacon_R.TabStop = false;
+            // 
+            // PB_Cstm_Bacon_L
+            // 
+            this.PB_Cstm_Bacon_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Bacon_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Bacon_L.Name = "PB_Cstm_Bacon_L";
+            this.PB_Cstm_Bacon_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Bacon_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Bacon_L.TabIndex = 2;
+            this.PB_Cstm_Bacon_L.TabStop = false;
+            // 
+            // RB_Cstm_Bacon_Reg
+            // 
+            this.RB_Cstm_Bacon_Reg.AutoSize = true;
+            this.RB_Cstm_Bacon_Reg.Checked = true;
+            this.RB_Cstm_Bacon_Reg.Enabled = false;
+            this.RB_Cstm_Bacon_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Bacon_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Bacon_Reg.Name = "RB_Cstm_Bacon_Reg";
+            this.RB_Cstm_Bacon_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Bacon_Reg.TabIndex = 1;
+            this.RB_Cstm_Bacon_Reg.TabStop = true;
+            this.RB_Cstm_Bacon_Reg.Text = "Regular";
+            this.RB_Cstm_Bacon_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Bacon
+            // 
+            this.CB_Cstm_Bacon.AutoSize = true;
+            this.CB_Cstm_Bacon.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Bacon.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Bacon.Name = "CB_Cstm_Bacon";
+            this.CB_Cstm_Bacon.Size = new System.Drawing.Size(68, 20);
+            this.CB_Cstm_Bacon.TabIndex = 0;
+            this.CB_Cstm_Bacon.Text = "Bacon";
+            this.CB_Cstm_Bacon.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Ham_Cstm
+            // 
+            this.PNL_Ham_Cstm.Controls.Add(this.RB_Cstm_Ham_Extra);
+            this.PNL_Ham_Cstm.Controls.Add(this.PB_Cstm_Ham_Whole);
+            this.PNL_Ham_Cstm.Controls.Add(this.PB_Cstm_Ham_R);
+            this.PNL_Ham_Cstm.Controls.Add(this.PB_Cstm_Ham_L);
+            this.PNL_Ham_Cstm.Controls.Add(this.RB_Cstm_Ham_Reg);
+            this.PNL_Ham_Cstm.Controls.Add(this.CB_Cstm_Ham);
+            this.PNL_Ham_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Ham_Cstm.Location = new System.Drawing.Point(0, 175);
+            this.PNL_Ham_Cstm.Name = "PNL_Ham_Cstm";
+            this.PNL_Ham_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Ham_Cstm.TabIndex = 8;
+            // 
+            // RB_Cstm_Ham_Extra
+            // 
+            this.RB_Cstm_Ham_Extra.AutoSize = true;
+            this.RB_Cstm_Ham_Extra.Enabled = false;
+            this.RB_Cstm_Ham_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Ham_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Ham_Extra.Name = "RB_Cstm_Ham_Extra";
+            this.RB_Cstm_Ham_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Ham_Extra.TabIndex = 5;
+            this.RB_Cstm_Ham_Extra.Text = "Extra";
+            this.RB_Cstm_Ham_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Ham_Whole
+            // 
+            this.PB_Cstm_Ham_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Ham_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Ham_Whole.Name = "PB_Cstm_Ham_Whole";
+            this.PB_Cstm_Ham_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Ham_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Ham_Whole.TabIndex = 4;
+            this.PB_Cstm_Ham_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Ham_R
+            // 
+            this.PB_Cstm_Ham_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Ham_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Ham_R.Name = "PB_Cstm_Ham_R";
+            this.PB_Cstm_Ham_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Ham_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Ham_R.TabIndex = 3;
+            this.PB_Cstm_Ham_R.TabStop = false;
+            // 
+            // PB_Cstm_Ham_L
+            // 
+            this.PB_Cstm_Ham_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Ham_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Ham_L.Name = "PB_Cstm_Ham_L";
+            this.PB_Cstm_Ham_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Ham_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Ham_L.TabIndex = 2;
+            this.PB_Cstm_Ham_L.TabStop = false;
+            // 
+            // RB_Cstm_Ham_Reg
+            // 
+            this.RB_Cstm_Ham_Reg.AutoSize = true;
+            this.RB_Cstm_Ham_Reg.Checked = true;
+            this.RB_Cstm_Ham_Reg.Enabled = false;
+            this.RB_Cstm_Ham_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Ham_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Ham_Reg.Name = "RB_Cstm_Ham_Reg";
+            this.RB_Cstm_Ham_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Ham_Reg.TabIndex = 1;
+            this.RB_Cstm_Ham_Reg.TabStop = true;
+            this.RB_Cstm_Ham_Reg.Text = "Regular";
+            this.RB_Cstm_Ham_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Ham
+            // 
+            this.CB_Cstm_Ham.AutoSize = true;
+            this.CB_Cstm_Ham.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Ham.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Ham.Name = "CB_Cstm_Ham";
+            this.CB_Cstm_Ham.Size = new System.Drawing.Size(57, 20);
+            this.CB_Cstm_Ham.TabIndex = 0;
+            this.CB_Cstm_Ham.Text = "Ham";
+            this.CB_Cstm_Ham.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Sausage_Cstm
+            // 
+            this.PNL_Sausage_Cstm.Controls.Add(this.RB_Cstm_Sausage_Extra);
+            this.PNL_Sausage_Cstm.Controls.Add(this.PB_Cstm_Sausage_Whole);
+            this.PNL_Sausage_Cstm.Controls.Add(this.PB_Cstm_Sausage_R);
+            this.PNL_Sausage_Cstm.Controls.Add(this.PB_Cstm_Sausage_L);
+            this.PNL_Sausage_Cstm.Controls.Add(this.RB_Cstm_Sausage_Reg);
+            this.PNL_Sausage_Cstm.Controls.Add(this.CB_Cstm_Sausage);
+            this.PNL_Sausage_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Sausage_Cstm.Location = new System.Drawing.Point(0, 98);
+            this.PNL_Sausage_Cstm.Name = "PNL_Sausage_Cstm";
+            this.PNL_Sausage_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Sausage_Cstm.TabIndex = 7;
+            // 
+            // RB_Cstm_Sausage_Extra
+            // 
+            this.RB_Cstm_Sausage_Extra.AutoSize = true;
+            this.RB_Cstm_Sausage_Extra.Enabled = false;
+            this.RB_Cstm_Sausage_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Sausage_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Sausage_Extra.Name = "RB_Cstm_Sausage_Extra";
+            this.RB_Cstm_Sausage_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Sausage_Extra.TabIndex = 5;
+            this.RB_Cstm_Sausage_Extra.Text = "Extra";
+            this.RB_Cstm_Sausage_Extra.UseVisualStyleBackColor = true;
+            // 
+            // PB_Cstm_Sausage_Whole
+            // 
+            this.PB_Cstm_Sausage_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Sausage_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Sausage_Whole.Name = "PB_Cstm_Sausage_Whole";
+            this.PB_Cstm_Sausage_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Sausage_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Sausage_Whole.TabIndex = 4;
+            this.PB_Cstm_Sausage_Whole.TabStop = false;
+            // 
+            // PB_Cstm_Sausage_R
+            // 
+            this.PB_Cstm_Sausage_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Sausage_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Sausage_R.Name = "PB_Cstm_Sausage_R";
+            this.PB_Cstm_Sausage_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Sausage_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Sausage_R.TabIndex = 3;
+            this.PB_Cstm_Sausage_R.TabStop = false;
+            // 
+            // PB_Cstm_Sausage_L
+            // 
+            this.PB_Cstm_Sausage_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Sausage_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Sausage_L.Name = "PB_Cstm_Sausage_L";
+            this.PB_Cstm_Sausage_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Sausage_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Sausage_L.TabIndex = 2;
+            this.PB_Cstm_Sausage_L.TabStop = false;
+            // 
+            // RB_Cstm_Sausage_Reg
+            // 
+            this.RB_Cstm_Sausage_Reg.AutoSize = true;
+            this.RB_Cstm_Sausage_Reg.Checked = true;
+            this.RB_Cstm_Sausage_Reg.Enabled = false;
+            this.RB_Cstm_Sausage_Reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Sausage_Reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Sausage_Reg.Name = "RB_Cstm_Sausage_Reg";
+            this.RB_Cstm_Sausage_Reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Sausage_Reg.TabIndex = 1;
+            this.RB_Cstm_Sausage_Reg.TabStop = true;
+            this.RB_Cstm_Sausage_Reg.Text = "Regular";
+            this.RB_Cstm_Sausage_Reg.UseVisualStyleBackColor = true;
+            // 
+            // CB_Cstm_Sausage
+            // 
+            this.CB_Cstm_Sausage.AutoSize = true;
+            this.CB_Cstm_Sausage.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Sausage.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Sausage.Name = "CB_Cstm_Sausage";
+            this.CB_Cstm_Sausage.Size = new System.Drawing.Size(83, 20);
+            this.CB_Cstm_Sausage.TabIndex = 0;
+            this.CB_Cstm_Sausage.Text = "Sausage";
+            this.CB_Cstm_Sausage.UseVisualStyleBackColor = true;
+            // 
+            // PNL_Pepperoni_Cstm
+            // 
+            this.PNL_Pepperoni_Cstm.BackColor = System.Drawing.Color.Transparent;
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.RB_Cstm_Pepperoni_Extra);
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.PB_Cstm_Pepperoni_Whole);
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.PB_Cstm_Pepperoni_R);
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.PB_Cstm_Pepperoni_L);
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.RB_Cstm_Pepperoni_reg);
+            this.PNL_Pepperoni_Cstm.Controls.Add(this.CB_Cstm_Pepperoni);
+            this.PNL_Pepperoni_Cstm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PNL_Pepperoni_Cstm.Location = new System.Drawing.Point(0, 21);
+            this.PNL_Pepperoni_Cstm.Name = "PNL_Pepperoni_Cstm";
+            this.PNL_Pepperoni_Cstm.Size = new System.Drawing.Size(545, 77);
+            this.PNL_Pepperoni_Cstm.TabIndex = 6;
+            // 
+            // RB_Cstm_Pepperoni_Extra
+            // 
+            this.RB_Cstm_Pepperoni_Extra.AutoSize = true;
+            this.RB_Cstm_Pepperoni_Extra.Enabled = false;
+            this.RB_Cstm_Pepperoni_Extra.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Pepperoni_Extra.Location = new System.Drawing.Point(208, 42);
+            this.RB_Cstm_Pepperoni_Extra.Name = "RB_Cstm_Pepperoni_Extra";
+            this.RB_Cstm_Pepperoni_Extra.Size = new System.Drawing.Size(57, 21);
+            this.RB_Cstm_Pepperoni_Extra.TabIndex = 5;
+            this.RB_Cstm_Pepperoni_Extra.Text = "Extra";
+            this.RB_Cstm_Pepperoni_Extra.UseVisualStyleBackColor = true;
+            this.RB_Cstm_Pepperoni_Extra.CheckedChanged += new System.EventHandler(this.RB_Cstm_Pepperoni_CheckedChanged);
+            // 
+            // PB_Cstm_Pepperoni_Whole
+            // 
+            this.PB_Cstm_Pepperoni_Whole.Image = global::PizzaShop.Properties.Resources.button_whole;
+            this.PB_Cstm_Pepperoni_Whole.Location = new System.Drawing.Point(385, 24);
+            this.PB_Cstm_Pepperoni_Whole.Name = "PB_Cstm_Pepperoni_Whole";
+            this.PB_Cstm_Pepperoni_Whole.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pepperoni_Whole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pepperoni_Whole.TabIndex = 4;
+            this.PB_Cstm_Pepperoni_Whole.TabStop = false;
+            this.PB_Cstm_Pepperoni_Whole.Click += new System.EventHandler(this.PB_Cstm_Pepperoni_Whole_Click);
+            // 
+            // PB_Cstm_Pepperoni_R
+            // 
+            this.PB_Cstm_Pepperoni_R.Image = global::PizzaShop.Properties.Resources.button_right;
+            this.PB_Cstm_Pepperoni_R.Location = new System.Drawing.Point(351, 24);
+            this.PB_Cstm_Pepperoni_R.Name = "PB_Cstm_Pepperoni_R";
+            this.PB_Cstm_Pepperoni_R.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pepperoni_R.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pepperoni_R.TabIndex = 3;
+            this.PB_Cstm_Pepperoni_R.TabStop = false;
+            // 
+            // PB_Cstm_Pepperoni_L
+            // 
+            this.PB_Cstm_Pepperoni_L.Image = global::PizzaShop.Properties.Resources.button_left;
+            this.PB_Cstm_Pepperoni_L.Location = new System.Drawing.Point(317, 24);
+            this.PB_Cstm_Pepperoni_L.Name = "PB_Cstm_Pepperoni_L";
+            this.PB_Cstm_Pepperoni_L.Size = new System.Drawing.Size(28, 28);
+            this.PB_Cstm_Pepperoni_L.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.PB_Cstm_Pepperoni_L.TabIndex = 2;
+            this.PB_Cstm_Pepperoni_L.TabStop = false;
+            // 
+            // RB_Cstm_Pepperoni_reg
+            // 
+            this.RB_Cstm_Pepperoni_reg.AutoSize = true;
+            this.RB_Cstm_Pepperoni_reg.Checked = true;
+            this.RB_Cstm_Pepperoni_reg.Enabled = false;
+            this.RB_Cstm_Pepperoni_reg.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RB_Cstm_Pepperoni_reg.Location = new System.Drawing.Point(127, 42);
+            this.RB_Cstm_Pepperoni_reg.Name = "RB_Cstm_Pepperoni_reg";
+            this.RB_Cstm_Pepperoni_reg.Size = new System.Drawing.Size(75, 21);
+            this.RB_Cstm_Pepperoni_reg.TabIndex = 1;
+            this.RB_Cstm_Pepperoni_reg.TabStop = true;
+            this.RB_Cstm_Pepperoni_reg.Text = "Regular";
+            this.RB_Cstm_Pepperoni_reg.UseVisualStyleBackColor = true;
+            this.RB_Cstm_Pepperoni_reg.CheckedChanged += new System.EventHandler(this.RB_Cstm_Pepperoni_CheckedChanged);
+            // 
+            // CB_Cstm_Pepperoni
+            // 
+            this.CB_Cstm_Pepperoni.AutoSize = true;
+            this.CB_Cstm_Pepperoni.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CB_Cstm_Pepperoni.Location = new System.Drawing.Point(109, 15);
+            this.CB_Cstm_Pepperoni.Name = "CB_Cstm_Pepperoni";
+            this.CB_Cstm_Pepperoni.Size = new System.Drawing.Size(93, 20);
+            this.CB_Cstm_Pepperoni.TabIndex = 0;
+            this.CB_Cstm_Pepperoni.Text = "Pepperoni";
+            this.CB_Cstm_Pepperoni.UseVisualStyleBackColor = true;
+            this.CB_Cstm_Pepperoni.CheckedChanged += new System.EventHandler(this.CB_Cstm_Pepperoni_CheckedChanged);
+            // 
+            // BTN_Cstm_Order
+            // 
+            this.BTN_Cstm_Order.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.BTN_Cstm_Order.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_Cstm_Order.Location = new System.Drawing.Point(366, 953);
+            this.BTN_Cstm_Order.Name = "BTN_Cstm_Order";
+            this.BTN_Cstm_Order.Size = new System.Drawing.Size(169, 45);
+            this.BTN_Cstm_Order.TabIndex = 5;
+            this.BTN_Cstm_Order.Text = "Order Now";
+            this.BTN_Cstm_Order.UseVisualStyleBackColor = false;
+            this.BTN_Cstm_Order.MouseEnter += new System.EventHandler(this.BTN_Order_MouseEnter);
+            this.BTN_Cstm_Order.MouseLeave += new System.EventHandler(this.BTN_Order_MouseLeave);
+            // 
+            // BTN_Cstm_Clear
+            // 
+            this.BTN_Cstm_Clear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.BTN_Cstm_Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_Cstm_Clear.Location = new System.Drawing.Point(188, 953);
+            this.BTN_Cstm_Clear.Name = "BTN_Cstm_Clear";
+            this.BTN_Cstm_Clear.Size = new System.Drawing.Size(172, 45);
+            this.BTN_Cstm_Clear.TabIndex = 4;
+            this.BTN_Cstm_Clear.Text = "Clear All";
+            this.BTN_Cstm_Clear.UseVisualStyleBackColor = false;
+            this.BTN_Cstm_Clear.MouseEnter += new System.EventHandler(this.BTN_Order_MouseEnter);
+            this.BTN_Cstm_Clear.MouseLeave += new System.EventHandler(this.BTN_Order_MouseLeave);
             // 
             // label24
             // 
             this.label24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(0, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(532, 21);
+            this.label24.Size = new System.Drawing.Size(545, 21);
             this.label24.TabIndex = 1;
             this.label24.Text = "- Toppings -";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel15
             // 
-            this.panel15.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel15.Controls.Add(this.radioButton11);
             this.panel15.Controls.Add(this.radioButton8);
             this.panel15.Controls.Add(this.radioButton9);
             this.panel15.Controls.Add(this.radioButton10);
             this.panel15.Controls.Add(this.label14);
-            this.panel15.Location = new System.Drawing.Point(-31, 120);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel15.Location = new System.Drawing.Point(0, 105);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(532, 50);
+            this.panel15.Size = new System.Drawing.Size(545, 50);
             this.panel15.TabIndex = 2;
             // 
             // radioButton11
@@ -3248,7 +3335,6 @@
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(70, 21);
             this.radioButton11.TabIndex = 4;
-            this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Buffalo";
             this.radioButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton11.UseVisualStyleBackColor = true;
@@ -3261,7 +3347,6 @@
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(88, 21);
             this.radioButton8.TabIndex = 3;
-            this.radioButton8.TabStop = true;
             this.radioButton8.Text = "Barbeque";
             this.radioButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton8.UseVisualStyleBackColor = true;
@@ -3274,7 +3359,6 @@
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(132, 21);
             this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Garlic Parmesan";
             this.radioButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton9.UseVisualStyleBackColor = true;
@@ -3287,7 +3371,6 @@
             this.radioButton10.Name = "radioButton10";
             this.radioButton10.Size = new System.Drawing.Size(83, 21);
             this.radioButton10.TabIndex = 1;
-            this.radioButton10.TabStop = true;
             this.radioButton10.Text = "Marinara";
             this.radioButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton10.UseVisualStyleBackColor = true;
@@ -3295,24 +3378,24 @@
             // label14
             // 
             this.label14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(0, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(532, 21);
+            this.label14.Size = new System.Drawing.Size(545, 21);
             this.label14.TabIndex = 0;
             this.label14.Text = "- Sauce -";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel13
             // 
-            this.panel13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel13.Controls.Add(this.radioButton3);
             this.panel13.Controls.Add(this.radioButton2);
             this.panel13.Controls.Add(this.radioButton1);
             this.panel13.Controls.Add(this.label5);
-            this.panel13.Location = new System.Drawing.Point(-31, 3);
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel13.Location = new System.Drawing.Point(0, 53);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(532, 52);
+            this.panel13.Size = new System.Drawing.Size(545, 52);
             this.panel13.TabIndex = 0;
             // 
             // radioButton3
@@ -3323,7 +3406,6 @@
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(62, 21);
             this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Large";
             this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -3336,7 +3418,6 @@
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(78, 21);
             this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Medium";
             this.radioButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -3349,7 +3430,6 @@
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(60, 21);
             this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Small";
             this.radioButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -3357,10 +3437,10 @@
             // label5
             // 
             this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(0, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(532, 21);
+            this.label5.Size = new System.Drawing.Size(545, 21);
             this.label5.TabIndex = 0;
             this.label5.Text = "- Size -";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3372,14 +3452,16 @@
             this.panel14.Controls.Add(this.radioButton5);
             this.panel14.Controls.Add(this.radioButton4);
             this.panel14.Controls.Add(this.label6);
-            this.panel14.Location = new System.Drawing.Point(5, 61);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(0, 0);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(532, 53);
+            this.panel14.Size = new System.Drawing.Size(545, 53);
             this.panel14.TabIndex = 1;
             // 
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
+            this.radioButton7.Checked = true;
             this.radioButton7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton7.Location = new System.Drawing.Point(55, 24);
             this.radioButton7.Name = "radioButton7";
@@ -3398,7 +3480,6 @@
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(106, 21);
             this.radioButton6.TabIndex = 4;
-            this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Hand Tossed";
             this.radioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton6.UseVisualStyleBackColor = true;
@@ -3411,7 +3492,6 @@
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(107, 21);
             this.radioButton5.TabIndex = 3;
-            this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Stuffed Crust";
             this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton5.UseVisualStyleBackColor = true;
@@ -3424,7 +3504,6 @@
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(109, 21);
             this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Thin \'N Crispy";
             this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.radioButton4.UseVisualStyleBackColor = true;
@@ -3432,10 +3511,10 @@
             // label6
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(532, 21);
+            this.label6.Size = new System.Drawing.Size(545, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "- Crust -";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3444,10 +3523,20 @@
             // 
             this.PNL_Custom_ImageHolder.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PNL_Custom_ImageHolder.BackColor = System.Drawing.Color.Transparent;
+            this.PNL_Custom_ImageHolder.Controls.Add(this.PB_Cstm_PizzaImg);
             this.PNL_Custom_ImageHolder.Location = new System.Drawing.Point(46, 259);
             this.PNL_Custom_ImageHolder.Name = "PNL_Custom_ImageHolder";
             this.PNL_Custom_ImageHolder.Size = new System.Drawing.Size(350, 324);
             this.PNL_Custom_ImageHolder.TabIndex = 8;
+            // 
+            // PB_Cstm_PizzaImg
+            // 
+            this.PB_Cstm_PizzaImg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PB_Cstm_PizzaImg.Location = new System.Drawing.Point(0, 0);
+            this.PB_Cstm_PizzaImg.Name = "PB_Cstm_PizzaImg";
+            this.PB_Cstm_PizzaImg.Size = new System.Drawing.Size(350, 324);
+            this.PB_Cstm_PizzaImg.TabIndex = 0;
+            this.PB_Cstm_PizzaImg.TabStop = false;
             // 
             // PB_Custom_Title
             // 
@@ -3621,7 +3710,6 @@
             this.BTN_Nav_Menu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BTN_Nav_Menu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BTN_Nav_Menu.UseVisualStyleBackColor = true;
-            this.BTN_Nav_Menu.Click += new System.EventHandler(this.BTN_Nav_Menu_Click);
             this.BTN_Nav_Menu.MouseEnter += new System.EventHandler(this.BTN_Nav_Menu_MouseEnterEvent);
             this.BTN_Nav_Menu.MouseLeave += new System.EventHandler(this.BTN_Nav_Menu_MouseLeaveEvent);
             // 
@@ -3755,18 +3843,74 @@
             this.TC_Tab_Custom.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
+            this.PNL_Tomatoes_Cstm.ResumeLayout(false);
+            this.PNL_Tomatoes_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Tomatoes_L)).EndInit();
+            this.PNL_Jalapenos_Cstm.ResumeLayout(false);
+            this.PNL_Jalapenos_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Jalapeno_L)).EndInit();
+            this.PNL_Pineapple_Cstm.ResumeLayout(false);
+            this.PNL_Pineapple_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pineapple_L)).EndInit();
+            this.PNL_BananaPeppers_Cstm.ResumeLayout(false);
+            this.PNL_BananaPeppers_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BananaPeppers_L)).EndInit();
+            this.PNL_BellPeppers_Cstm.ResumeLayout(false);
+            this.PNL_BellPeppers_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_BellPeppers_L)).EndInit();
+            this.PNL_Olives_Cstm.ResumeLayout(false);
+            this.PNL_Olives_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Olives_L)).EndInit();
+            this.PNL_Onions_Cstm.ResumeLayout(false);
+            this.PNL_Onions_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Onions_L)).EndInit();
+            this.PNL_Mushrooms_Cstm.ResumeLayout(false);
+            this.PNL_Mushrooms_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Mushrooms_L)).EndInit();
+            this.PNL_Bacon_Cstm.ResumeLayout(false);
+            this.PNL_Bacon_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Bacon_L)).EndInit();
+            this.PNL_Ham_Cstm.ResumeLayout(false);
+            this.PNL_Ham_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Ham_L)).EndInit();
+            this.PNL_Sausage_Cstm.ResumeLayout(false);
+            this.PNL_Sausage_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Sausage_L)).EndInit();
+            this.PNL_Pepperoni_Cstm.ResumeLayout(false);
+            this.PNL_Pepperoni_Cstm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_Whole)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_R)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_Pepperoni_L)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
+            this.PNL_Custom_ImageHolder.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Cstm_PizzaImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Custom_Title)).EndInit();
             this.TC_Tab_Cart.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PB_Order_Title)).EndInit();
@@ -3958,89 +4102,96 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label LBL_Cstm_Price;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox49;
-        private System.Windows.Forms.CheckBox checkBox50;
-        private System.Windows.Forms.CheckBox checkBox51;
-        private System.Windows.Forms.CheckBox checkBox52;
-        private System.Windows.Forms.CheckBox checkBox53;
-        private System.Windows.Forms.CheckBox checkBox54;
-        private System.Windows.Forms.CheckBox checkBox55;
-        private System.Windows.Forms.CheckBox checkBox56;
-        private System.Windows.Forms.CheckBox checkBox57;
-        private System.Windows.Forms.CheckBox checkBox58;
-        private System.Windows.Forms.CheckBox checkBox59;
-        private System.Windows.Forms.CheckBox checkBox60;
-        private System.Windows.Forms.CheckBox checkBox61;
-        private System.Windows.Forms.CheckBox checkBox62;
-        private System.Windows.Forms.CheckBox checkBox63;
-        private System.Windows.Forms.CheckBox checkBox64;
-        private System.Windows.Forms.CheckBox checkBox65;
-        private System.Windows.Forms.CheckBox checkBox66;
-        private System.Windows.Forms.CheckBox checkBox67;
-        private System.Windows.Forms.CheckBox checkBox68;
-        private System.Windows.Forms.CheckBox checkBox69;
-        private System.Windows.Forms.CheckBox checkBox70;
-        private System.Windows.Forms.CheckBox checkBox71;
-        private System.Windows.Forms.CheckBox checkBox72;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
-        private System.Windows.Forms.CheckBox checkBox31;
-        private System.Windows.Forms.CheckBox checkBox32;
-        private System.Windows.Forms.CheckBox checkBox33;
-        private System.Windows.Forms.CheckBox checkBox34;
-        private System.Windows.Forms.CheckBox checkBox35;
-        private System.Windows.Forms.CheckBox checkBox36;
-        private System.Windows.Forms.CheckBox checkBox37;
-        private System.Windows.Forms.CheckBox checkBox38;
-        private System.Windows.Forms.CheckBox checkBox39;
-        private System.Windows.Forms.CheckBox checkBox40;
-        private System.Windows.Forms.CheckBox checkBox41;
-        private System.Windows.Forms.CheckBox checkBox42;
-        private System.Windows.Forms.CheckBox checkBox43;
-        private System.Windows.Forms.CheckBox checkBox44;
-        private System.Windows.Forms.CheckBox checkBox45;
-        private System.Windows.Forms.CheckBox checkBox46;
-        private System.Windows.Forms.CheckBox checkBox47;
-        private System.Windows.Forms.CheckBox checkBox48;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTN_Cstm_Order;
+        private System.Windows.Forms.Button BTN_Cstm_Clear;
+        private System.Windows.Forms.Panel PNL_Pepperoni_Cstm;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pepperoni_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pepperoni_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pepperoni_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Pepperoni_reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Pepperoni;
+        private System.Windows.Forms.Panel PNL_Sausage_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Sausage_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Sausage_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Sausage_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Sausage_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Sausage_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Sausage;
+        private System.Windows.Forms.RadioButton RB_Cstm_Pepperoni_Extra;
+        private System.Windows.Forms.Panel PNL_Onions_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Onions_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Onions_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Onions_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Onions_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Onions_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Onions;
+        private System.Windows.Forms.Panel PNL_Mushrooms_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Mushrooms_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Mushrooms_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Mushrooms_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Mushrooms_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Mushrooms_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Mushrooms;
+        private System.Windows.Forms.Panel PNL_Bacon_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Bacon_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Bacon_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Bacon_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Bacon_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Bacon_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Bacon;
+        private System.Windows.Forms.Panel PNL_Ham_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Ham_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Ham_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Ham_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Ham_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Ham_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Ham;
+        private System.Windows.Forms.Panel PNL_Tomatoes_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Tomatoes_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Tomatoes_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Tomatoes_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Tomatoes_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Tomatoes_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Tomatoes;
+        private System.Windows.Forms.Panel PNL_Jalapenos_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Jalapeno_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Jalapeno_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Jalapeno_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Jalapeno_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Jalapeno_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Jalapeno;
+        private System.Windows.Forms.Panel PNL_Pineapple_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Pineapple_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pineapple_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pineapple_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Pineapple_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Pineapple_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Pineapple;
+        private System.Windows.Forms.Panel PNL_BananaPeppers_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_BananaPeppers_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_BananaPeppers_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_BananaPeppers_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_BananaPeppers_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_BananaPeppers_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_BananaPeppers;
+        private System.Windows.Forms.Panel PNL_BellPeppers_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_BellPeppers_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_BellPeppers_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_BellPeppers_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_BellPeppers_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_BellPeppers_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_BellPeppers;
+        private System.Windows.Forms.Panel PNL_Olives_Cstm;
+        private System.Windows.Forms.RadioButton RB_Cstm_Olives_Extra;
+        private System.Windows.Forms.PictureBox PB_Cstm_Olives_Whole;
+        private System.Windows.Forms.PictureBox PB_Cstm_Olives_R;
+        private System.Windows.Forms.PictureBox PB_Cstm_Olives_L;
+        private System.Windows.Forms.RadioButton RB_Cstm_Olives_Reg;
+        private System.Windows.Forms.CheckBox CB_Cstm_Olives;
+        private System.Windows.Forms.PictureBox PB_Cstm_PizzaImg;
     }
 }
 

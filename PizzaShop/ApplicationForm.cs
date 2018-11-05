@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Drawing.Text;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -8,6 +9,7 @@ namespace PizzaShop
 {
     public partial class ApplicationForm : Form
     {
+        public static List<Image> Images = new List<Image>();
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -30,21 +32,27 @@ namespace PizzaShop
         {
             loadFont();
 
-            CustomImage(Utilities.TOP_MOZZ);
-            CustomImage(Utilities.TOP_JALEPENO_X);
+            Images.Add(Utilities.CRUST_PAN);
+            Images.Add(Utilities.TOP_MOZZ);
+            CustomImage();
         }
 
-        private void CustomImage(Image image)
+        private void CustomImage()
         {
-            Panel pb = new Panel();
-            pb.Parent = PNL_Custom_ImageHolder;
-            pb.Size = new Size(341, 316);
-            pb.Location = new Point(4, 5);
-            pb.Margin = new Padding(3, 3, 3, 3);
-            pb.BackgroundImageLayout = ImageLayout.Stretch;
-            pb.BackColor = Color.Transparent;
-            pb.BackgroundImage = image;
-            pb.BringToFront();
+            int width = 341;
+            int height = 316;
+            Image image = new Bitmap(width, height);
+
+            using (var graphics = Graphics.FromImage(image))
+            {
+                foreach(Image i in Images)
+                {
+                    graphics.DrawImage(i, new Rectangle(0, 0, width, height));
+                }
+            }
+
+            PB_Cstm_PizzaImg.SizeMode = PictureBoxSizeMode.StretchImage;
+            PB_Cstm_PizzaImg.Image = image;
         }
 
         /**
@@ -353,6 +361,65 @@ namespace PizzaShop
 
                 LBL_Potato_Price.Text = $"${price.ToString()}";
             }
+        }
+
+        private void CB_Cstm_Pepperoni_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox cb = ((CheckBox)sender);
+            RB_Cstm_Pepperoni_reg.Checked = true;
+
+            if (cb.Checked)
+            {
+                Images.Add(Utilities.TOP_PEPPERONI_L);
+                Images.Add(Utilities.TOP_PEPPERONI_R);
+                CustomImage();
+                RB_Cstm_Pepperoni_reg.Enabled = true;
+                RB_Cstm_Pepperoni_Extra.Enabled = true;
+                PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+            }
+            else
+            {
+                Images.Remove(Utilities.TOP_PEPPERONI_L);
+                Images.Remove(Utilities.TOP_PEPPERONI_R);
+                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                CustomImage();
+                RB_Cstm_Pepperoni_reg.Enabled = false;
+                RB_Cstm_Pepperoni_Extra.Enabled = false;
+                PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE;
+            }
+        }
+
+        private void RB_Cstm_Pepperoni_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = ((RadioButton)sender);
+            string name = rb.Name;
+            
+            if(name == "RB_Cstm_Pepperoni_reg")
+            {
+                if (rb.Checked)
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_L);
+                    Images.Add(Utilities.TOP_PEPPERONI_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_R);
+                    CustomImage();
+                }
+            }
+        }
+
+        private void PB_Cstm_Pepperoni_Whole_Click(object sender, EventArgs e)
+        {
+            PictureBox pb = ((PictureBox)sender);
+            
         }
     }
 }

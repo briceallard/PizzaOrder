@@ -57,20 +57,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Utilities.cs" />
     <EmbeddedResource Include="ApplicationForm.resx">
       <DependentUpon>ApplicationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <EmbeddedResource Include="Properties\Resources\Fonts\Italiano .otf" />
     <None Include="Properties\Settings.settings">
@@ -271,6 +271,168 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\Resources\Images\Custom\Toppings\topping_Mushroom_extra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-left-selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-right-selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-whole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\button-whole-selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Bacon_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Bacon_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Bacon_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Bacon_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_BananaPepper_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_BananaPepper_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_BananaPepper_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_BananaPepper_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_GreenBellPepper_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_GreenBellPepper_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_GreenBellPepper_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_GreenBellPepper_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Ham_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Ham_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Ham_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Ham_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_ItalianSausage_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_ItalianSausage_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_ItalianSausage_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_ItalianSausage_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Jalepeno_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Jalepeno_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Jalepeno_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Jalepeno_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Mushroom_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Mushroom_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Mushroom_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Mushroom_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Olives_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Olives_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Olives_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Olives_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Onion_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Onion_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Onion_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Onion_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pepperoni_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pepperoni_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pepperoni_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pepperoni_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pineapple_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pineapple_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pineapple_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Pineapple_reg_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Tomato_extra_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Tomato_extra_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Tomato_reg_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources\Images\Custom\Toppings\imagesLR\topping_Tomato_reg_R.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
