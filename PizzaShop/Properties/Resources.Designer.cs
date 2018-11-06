@@ -263,6 +263,16 @@ namespace PizzaShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap error_red_18x18 {
+            get {
+                object obj = ResourceManager.GetObject("error_red_18x18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap info_white_thick_24x24 {
             get {
                 object obj = ResourceManager.GetObject("info_white_thick_24x24", resourceCulture);

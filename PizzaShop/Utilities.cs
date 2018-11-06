@@ -1,4 +1,15 @@
-﻿using System;
+﻿/**
+ *  Brice Allard
+ *  Catterina's Pizza
+ *  November 3, 2018
+ * 
+ *  Description: 
+ *      Winforms application that allows the user to choose from preselected menu
+ *      items or create their own custom pizza with toppings of their choice.
+ *      Images overlayed to display the look of the pizza has been implemented.
+ **/
+
+using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -119,12 +130,12 @@ namespace PizzaShop
         public static readonly double BUFFALO = 0.99;
         // Toppings
         public static readonly double PEPPORONI = 0.99;
-        public static readonly double ITALIAN_SAUSAGE = 0.99;
+        public static readonly double SAUSAGE = 0.99;
         public static readonly double HAM = 0.99;
         public static readonly double BACON = 0.99;
         public static readonly double MUSHROOMS = 0.99;
         public static readonly double ONIONS = 0.99;
-        public static readonly double BLACK_OLIVES = 0.99;
+        public static readonly double OLIVES = 0.99;
         public static readonly double BELL_PEPPERS = 0.99;
         public static readonly double BANANA_PEPPERS = 0.99;
         public static readonly double PINEAPPLE = 0.99;
@@ -160,6 +171,42 @@ namespace PizzaShop
             }
 
             return 0.00;
+        }
+
+        public static string getLabelPrice(Label lbl)
+        {
+            string line = lbl.Text;
+            List<string> split = new List<string>();
+
+            if (line.Contains('$'))
+            {
+                split = line.Split('$').ToList();
+            }
+
+            if (split.Count > 1)
+            {
+                return split[1];
+            }
+
+            return "0.00";
+        }
+
+        public static string getName(ComboBox cb)
+        {
+            string line = cb.GetItemText(cb.SelectedItem);
+            List<string> split = new List<string>();
+
+            if (line.Contains('$'))
+            {
+                split = line.Split('-').ToList();
+            }
+
+            if (split.Count > 1)
+            {
+                return split[0];
+            }
+
+            return "No Name";
         }
     }
 }
