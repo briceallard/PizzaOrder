@@ -32,9 +32,12 @@ namespace PizzaShop
 
         // Custom font library being loaded
         [DllImport("gdi32.dll")]
-        private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont, uint cbfont, IntPtr pdv, [In] ref uint pcFonts);
+        private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont,
+                                                uint cbfont, IntPtr pdv, 
+                                                [In] ref uint pcFonts);
         [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
-        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        public static extern int SendMessage(IntPtr hWnd, int Msg, 
+                                          int wParam, int lParam);
         [System.Runtime.InteropServices.DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
@@ -371,7 +374,9 @@ namespace PizzaShop
          **/
         private void BTN_Cheese_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Cheese_Size.Text == "- Size -" || CB_Cheese_Crust.Text == "- Crust -" || CB_Cheese_Toppings.Text == "- Toppings -")
+            if (CB_Cheese_Size.Text == "- Size -" || 
+                CB_Cheese_Crust.Text == "- Crust -" || 
+                CB_Cheese_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -393,7 +398,9 @@ namespace PizzaShop
 
         private void BTN_Pepperoni_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Pepperoni_Size.Text == "- Size -" || CB_Pepperoni_Crust.Text == "- Crust -" || CB_Pepperoni_Toppings.Text == "- Toppings -")
+            if (CB_Pepperoni_Size.Text == "- Size -" || 
+                CB_Pepperoni_Crust.Text == "- Crust -" || 
+                CB_Pepperoni_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -415,7 +422,9 @@ namespace PizzaShop
 
         private void BTN_BBQ_Order_Click(object sender, EventArgs e)
         {
-            if (CB_BBQ_Size.Text == "- Size -" || CB_BBQ_Crust.Text == "- Crust -" || CB_BBQ_Toppings.Text == "- Toppings -")
+            if (CB_BBQ_Size.Text == "- Size -" || 
+                CB_BBQ_Crust.Text == "- Crust -" || 
+                CB_BBQ_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -437,7 +446,9 @@ namespace PizzaShop
 
         private void BTN_Supreme_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Supreme_Size.Text == "- Size -" || CB_Supreme_Crust.Text == "- Crust -" || CB_Supreme_Toppings.Text == "- Toppings -")
+            if (CB_Supreme_Size.Text == "- Size -" || 
+                CB_Supreme_Crust.Text == "- Crust -" || 
+                CB_Supreme_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -459,7 +470,9 @@ namespace PizzaShop
 
         private void BTN_Taco_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Taco_Size.Text == "- Size -" || CB_Taco_Crust.Text == "- Crust -" || CB_Taco_Toppings.Text == "- Toppings -")
+            if (CB_Taco_Size.Text == "- Size -" || 
+                CB_Taco_Crust.Text == "- Crust -" || 
+                CB_Taco_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -481,7 +494,9 @@ namespace PizzaShop
 
         private void BTN_Breakfast_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Breakfast_Size.Text == "- Size -" || CB_Breakfast_Crust.Text == "- Crust -" || CB_Breakfast_Toppings.Text == "- Toppings -")
+            if (CB_Breakfast_Size.Text == "- Size -" || 
+                CB_Breakfast_Crust.Text == "- Crust -" || 
+                CB_Breakfast_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -503,7 +518,9 @@ namespace PizzaShop
 
         private void BTN_Spinach_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Spinach_Size.Text == "- Size -" || CB_Spinach_Crust.Text == "- Crust -" || CB_Spinach_Toppings.Text == "- Toppings -")
+            if (CB_Spinach_Size.Text == "- Size -" || 
+                CB_Spinach_Crust.Text == "- Crust -" || 
+                CB_Spinach_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -525,7 +542,9 @@ namespace PizzaShop
 
         private void BTN_Potato_Order_Click(object sender, EventArgs e)
         {
-            if (CB_Potato_Size.Text == "- Size -" || CB_Potato_Crust.Text == "- Crust -" || CB_Potato_Toppings.Text == "- Toppings -")
+            if (CB_Potato_Size.Text == "- Size -" || 
+                CB_Potato_Crust.Text == "- Crust -" || 
+                CB_Potato_Toppings.Text == "- Toppings -")
             {
                 MessageBox.Show("Please Select From All Options");
                 return;
@@ -2172,7 +2191,7 @@ namespace PizzaShop
 
         private void BTN_Order_Order_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Let's pretend you entered your credit card information here. I'm tired!");
+            MessageBox.Show($"We will pretend you entered payment data. Enjoy your pizza!");
         }
     }
 }
