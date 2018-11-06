@@ -10,9 +10,9 @@
  **/
 
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -49,7 +49,7 @@ namespace PizzaShop
         private void ApplicationForm_Load(object sender, EventArgs e)
         {
             loadFont();
-            
+
             // Initialize the custom pizza image
             Images.Add(Utilities.CRUST_PAN);
             Images.Add(Utilities.TOP_MOZZ);
@@ -65,7 +65,7 @@ namespace PizzaShop
 
             using (var graphics = Graphics.FromImage(image))
             {
-                foreach(Image i in Images)
+                foreach (Image i in Images)
                 {
                     graphics.DrawImage(i, new Rectangle(0, 0, width, height));
                 }
@@ -581,7 +581,7 @@ namespace PizzaShop
         {
             RadioButton rb = ((RadioButton)sender);
             string name = rb.Name;
-            
+
             if (name == "RB_Cstm_Crust_Pan")
             {
                 if (rb.Checked)
@@ -761,12 +761,12 @@ namespace PizzaShop
         {
             RadioButton rb = ((RadioButton)sender);
             string name = rb.Name;
-            
-            if(name == "RB_Cstm_Pepperoni_reg")
+
+            if (name == "RB_Cstm_Pepperoni_reg")
             {
                 if (rb.Checked)
                 {
-                    if(PB_Cstm_Pepperoni_L.Image == Utilities.PIZZA_LEFT_SELECTED)
+                    if (PB_Cstm_Pepperoni_L.Image == Utilities.PIZZA_LEFT_SELECTED)
                     {
                         Images.Remove(Utilities.TOP_PEPPERONI_L);
                         Images.Remove(Utilities.TOP_PEPPERONI_X_L);
@@ -831,84 +831,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Pepperoni_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Pepperoni.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_X_L);
-                Images.Add(Utilities.TOP_PEPPERONI_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_L);
-                Images.Add(Utilities.TOP_PEPPERONI_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_L);
+                    Images.Add(Utilities.TOP_PEPPERONI_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Pepperoni_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Pepperoni.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Pepperoni_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Pepperoni.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Pepperoni_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Pepperoni_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Pepperoni_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_PEPPERONI_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_L);
-                Images.Remove(Utilities.TOP_PEPPERONI_R);
-                Images.Remove(Utilities.TOP_PEPPERONI_X_R);
-                Images.Add(Utilities.TOP_PEPPERONI_L);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_PEPPERONI_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_L);
+                    Images.Remove(Utilities.TOP_PEPPERONI_R);
+                    Images.Remove(Utilities.TOP_PEPPERONI_X_R);
+                    Images.Add(Utilities.TOP_PEPPERONI_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1023,84 +1032,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Sausage_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Sausage.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_X_L);
-                Images.Add(Utilities.TOP_SAUSAGE_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_L);
-                Images.Add(Utilities.TOP_SAUSAGE_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Add(Utilities.TOP_SAUSAGE_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_L);
+                    Images.Add(Utilities.TOP_SAUSAGE_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Sausage_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Sausage.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Sausage_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Sausage.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Sausage_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Sausage_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Sausage_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Sausage_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_SAUSAGE_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_L);
-                Images.Remove(Utilities.TOP_SAUSAGE_R);
-                Images.Remove(Utilities.TOP_SAUSAGE_X_R);
-                Images.Add(Utilities.TOP_SAUSAGE_L);
-                CustomImage();
+                if (RB_Cstm_Sausage_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_SAUSAGE_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_L);
+                    Images.Remove(Utilities.TOP_SAUSAGE_R);
+                    Images.Remove(Utilities.TOP_SAUSAGE_X_R);
+                    Images.Add(Utilities.TOP_SAUSAGE_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1215,84 +1233,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Ham_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Ham.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_X_L);
-                Images.Add(Utilities.TOP_HAM_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_L);
-                Images.Add(Utilities.TOP_HAM_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_X_L);
+                    Images.Add(Utilities.TOP_HAM_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_L);
+                    Images.Add(Utilities.TOP_HAM_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Ham_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Ham.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Ham_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Ham.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Ham_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Ham_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Ham_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Ham_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_HAM_L);
-                Images.Remove(Utilities.TOP_HAM_X_L);
-                Images.Remove(Utilities.TOP_HAM_R);
-                Images.Remove(Utilities.TOP_HAM_X_R);
-                Images.Add(Utilities.TOP_HAM_L);
-                CustomImage();
+                if (RB_Cstm_Ham_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_HAM_L);
+                    Images.Remove(Utilities.TOP_HAM_X_L);
+                    Images.Remove(Utilities.TOP_HAM_R);
+                    Images.Remove(Utilities.TOP_HAM_X_R);
+                    Images.Add(Utilities.TOP_HAM_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1407,84 +1434,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Bacon_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Bacon.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_X_L);
-                Images.Add(Utilities.TOP_BACON_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_L);
-                Images.Add(Utilities.TOP_BACON_R);
-                CustomImage();
+                if (RB_Cstm_Bacon_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_X_L);
+                    Images.Add(Utilities.TOP_BACON_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_L);
+                    Images.Add(Utilities.TOP_BACON_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Bacon_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (RB_Cstm_Bacon_Extra.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_R);
-                CustomImage();
+                if (RB_Cstm_Bacon_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Bacon_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE;
-
             if (RB_Cstm_Bacon_Extra.Checked)
             {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_BACON_L);
-                Images.Remove(Utilities.TOP_BACON_X_L);
-                Images.Remove(Utilities.TOP_BACON_R);
-                Images.Remove(Utilities.TOP_BACON_X_R);
-                Images.Add(Utilities.TOP_BACON_L);
-                CustomImage();
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Bacon_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Bacon_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Bacon_Whole.Image = Utilities.PIZZA_WHOLE;
+
+                if (RB_Cstm_Bacon_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_BACON_L);
+                    Images.Remove(Utilities.TOP_BACON_X_L);
+                    Images.Remove(Utilities.TOP_BACON_R);
+                    Images.Remove(Utilities.TOP_BACON_X_R);
+                    Images.Add(Utilities.TOP_BACON_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1599,84 +1635,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Mushrooms_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Mushrooms.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_X_L);
-                Images.Add(Utilities.TOP_MUSHROOM_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_L);
-                Images.Add(Utilities.TOP_MUSHROOM_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Add(Utilities.TOP_MUSHROOM_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_L);
+                    Images.Add(Utilities.TOP_MUSHROOM_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Mushrooms_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Mushrooms.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Mushrooms_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Mushrooms.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Mushrooms_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Mushrooms_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Mushrooms_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Mushrooms_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_MUSHROOM_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_L);
-                Images.Remove(Utilities.TOP_MUSHROOM_R);
-                Images.Remove(Utilities.TOP_MUSHROOM_X_R);
-                Images.Add(Utilities.TOP_MUSHROOM_L);
-                CustomImage();
+                if (RB_Cstm_Mushrooms_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_MUSHROOM_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_L);
+                    Images.Remove(Utilities.TOP_MUSHROOM_R);
+                    Images.Remove(Utilities.TOP_MUSHROOM_X_R);
+                    Images.Add(Utilities.TOP_MUSHROOM_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1791,84 +1836,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Onions_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Onions.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_X_L);
-                Images.Add(Utilities.TOP_ONION_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_L);
-                Images.Add(Utilities.TOP_ONION_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_X_L);
+                    Images.Add(Utilities.TOP_ONION_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_L);
+                    Images.Add(Utilities.TOP_ONION_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Onions_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Onions.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Onions_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Onions.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Onions_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Onions_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Onions_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Onions_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_ONION_L);
-                Images.Remove(Utilities.TOP_ONION_X_L);
-                Images.Remove(Utilities.TOP_ONION_R);
-                Images.Remove(Utilities.TOP_ONION_X_R);
-                Images.Add(Utilities.TOP_ONION_L);
-                CustomImage();
+                if (RB_Cstm_Onions_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_ONION_L);
+                    Images.Remove(Utilities.TOP_ONION_X_L);
+                    Images.Remove(Utilities.TOP_ONION_R);
+                    Images.Remove(Utilities.TOP_ONION_X_R);
+                    Images.Add(Utilities.TOP_ONION_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -1983,84 +2037,93 @@ namespace PizzaShop
 
         private void PB_Cstm_Olives_Whole_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
-            PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT;
+            if (CB_Cstm_Olives.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE_SELECTED;
+                PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_X_L);
-                Images.Add(Utilities.TOP_OLIVE_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_L);
-                Images.Add(Utilities.TOP_OLIVE_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_X_L);
+                    Images.Add(Utilities.TOP_OLIVE_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_L);
+                    Images.Add(Utilities.TOP_OLIVE_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Olives_R_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
-            PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT;
-            PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Olives.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT_SELECTED;
+                PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT;
+                PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Pepperoni_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_X_R);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_R);
-                CustomImage();
+                if (RB_Cstm_Pepperoni_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_X_R);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_R);
+                    CustomImage();
+                }
             }
         }
 
         private void PB_Cstm_Olives_L_Click(object sender, EventArgs e)
         {
-            PictureBox pb = ((PictureBox)sender);
-            PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT;
-            PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT_SELECTED;
-            PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE;
+            if (CB_Cstm_Olives.Checked)
+            {
+                PictureBox pb = ((PictureBox)sender);
+                PB_Cstm_Olives_R.Image = Utilities.PIZZA_RIGHT;
+                PB_Cstm_Olives_L.Image = Utilities.PIZZA_LEFT_SELECTED;
+                PB_Cstm_Olives_Whole.Image = Utilities.PIZZA_WHOLE;
 
-            if (RB_Cstm_Olives_Extra.Checked)
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_X_L);
-                CustomImage();
-            }
-            else
-            {
-                Images.Remove(Utilities.TOP_OLIVE_L);
-                Images.Remove(Utilities.TOP_OLIVE_X_L);
-                Images.Remove(Utilities.TOP_OLIVE_R);
-                Images.Remove(Utilities.TOP_OLIVE_X_R);
-                Images.Add(Utilities.TOP_OLIVE_L);
-                CustomImage();
+                if (RB_Cstm_Olives_Extra.Checked)
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_X_L);
+                    CustomImage();
+                }
+                else
+                {
+                    Images.Remove(Utilities.TOP_OLIVE_L);
+                    Images.Remove(Utilities.TOP_OLIVE_X_L);
+                    Images.Remove(Utilities.TOP_OLIVE_R);
+                    Images.Remove(Utilities.TOP_OLIVE_X_R);
+                    Images.Add(Utilities.TOP_OLIVE_L);
+                    CustomImage();
+                }
             }
         }
 
@@ -2080,7 +2143,7 @@ namespace PizzaShop
 
         private void BTN_Cstm_Order_ClickEvent(object sender, EventArgs e)
         {
-            Custom.Price = Double.Parse(Utilities.getLabelPrice(((Label)LBL_Cstm_Price)));
+            Custom.Price = Double.Parse(Utilities.getLabelPrice(LBL_Cstm_Price));
             Custom.UpdateList();
             string Toppings = Custom.GetListToStrings();
             string CustomPrice = $"${Custom.Price}";

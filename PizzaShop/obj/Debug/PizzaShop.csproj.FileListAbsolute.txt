@@ -10,3 +10,15 @@ C:\Users\brice\source\repos\PizzaShop\PizzaShop\obj\Debug\PizzaShop.pdb
 C:\Users\brice\source\repos\PizzaShop\PizzaShop\obj\Debug\PizzaShop.ApplicationForm.resources
 C:\Users\brice\source\repos\PizzaShop\PizzaShop\bin\Debug\MaterialSkin.dll
 C:\Users\brice\source\repos\PizzaShop\PizzaShop\obj\Debug\PizzaShop.csproj.CopyComplete
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\bin\Debug\PizzaShop.exe.config
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\bin\Debug\PizzaShop.exe
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\bin\Debug\PizzaShop.pdb
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\bin\Debug\MaterialSkin.dll
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.csprojAssemblyReference.cache
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.ApplicationForm.resources
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.Properties.Resources.resources
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.csproj.GenerateResource.cache
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.csproj.CoreCompileInputs.cache
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.csproj.CopyComplete
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.exe
+C:\Users\brice\source\repos\PizzaOrder\PizzaShop\obj\Debug\PizzaShop.pdb
