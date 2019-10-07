@@ -30,6 +30,14 @@ namespace PizzaShop
         public bool Mushrooms { get; set; }
         public bool Onions { get; set; }
         public bool Olives { get; set; }
+        public bool PineApple { get; set; }
+
+        public bool Olives { get; set; }
+        public bool BellPepper { get; set; }
+        public bool Turkey { get; set; }
+        public bool ExtraCheese { get; set; }
+        public bool ExtraMushrooms { get; set; }
+
         public double Price { get; set; }
 
         public CustomPizza()
