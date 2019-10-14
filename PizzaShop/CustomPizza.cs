@@ -29,7 +29,6 @@ namespace PizzaShop
         public bool Bacon { get; set; }
         public bool Mushrooms { get; set; }
         public bool Onions { get; set; }
-        public bool Olives { get; set; }
         public bool PineApple { get; set; }
 
         public bool Olives { get; set; }
